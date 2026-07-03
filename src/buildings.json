@@ -14,7 +14,9 @@
     "persons": "140",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "03/07/2026 14:35:00"
+    "date": "03/07/2026 14:35:00",
+    "footprint_m2": 396.6,
+    "gross_area_m2": 3172.8
   },
   {
     "name": "Fina",
@@ -31,7 +33,9 @@
     "persons": "3",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 14:33:23"
+    "date": "03/07/2026 14:33:23",
+    "footprint_m2": 6841.7,
+    "gross_area_m2": 6841.7
   },
   {
     "name": "BLOQUE 5 ALA 1",
@@ -48,7 +52,9 @@
     "persons": "12",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "03/07/2026 14:30:49"
+    "date": "03/07/2026 14:30:49",
+    "footprint_m2": 627.7,
+    "gross_area_m2": 1883.1
   },
   {
     "name": "Calle A",
@@ -65,7 +71,9 @@
     "persons": "1",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "03/07/2026 14:29:12"
+    "date": "03/07/2026 14:29:12",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "OPP 17 Torre I  ",
@@ -82,7 +90,9 @@
     "persons": "925",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 14:22:28"
+    "date": "03/07/2026 14:22:28",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Res Guanaca",
@@ -99,7 +109,9 @@
     "persons": "150",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 14:14:33"
+    "date": "03/07/2026 14:14:33",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Estadio Brígido Iriarte - Rampa Nor oeste",
@@ -116,7 +128,9 @@
     "persons": "2500",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "03/07/2026 14:01:45"
+    "date": "03/07/2026 14:01:45",
+    "footprint_m2": 295.6,
+    "gross_area_m2": 591.2
   },
   {
     "name": "BLOQUE 8 ALA 1",
@@ -133,7 +147,9 @@
     "persons": "16",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 14:00:59"
+    "date": "03/07/2026 14:00:59",
+    "footprint_m2": 627.7,
+    "gross_area_m2": 2510.8
   },
   {
     "name": "Bloque 06",
@@ -150,7 +166,9 @@
     "persons": "70",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 13:55:13"
+    "date": "03/07/2026 13:55:13",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "FRANROSGR",
@@ -167,7 +185,9 @@
     "persons": "5",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 13:53:32"
+    "date": "03/07/2026 13:53:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Oppe 17, torre G, urbanismo la paz ",
@@ -184,7 +204,9 @@
     "persons": "962",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 13:44:55"
+    "date": "03/07/2026 13:44:55",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Alborada",
@@ -201,7 +223,9 @@
     "persons": "350",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 13:43:51"
+    "date": "03/07/2026 13:43:51",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 186817.8
   },
   {
     "name": "Estadio Brígido Iriarte - Grada oeste",
@@ -218,7 +242,9 @@
     "persons": "5100",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 13:18:23"
+    "date": "03/07/2026 13:18:23",
+    "footprint_m2": 9203.1,
+    "gross_area_m2": 27609.3
   },
   {
     "name": "Quinta Graciela",
@@ -235,7 +261,9 @@
     "persons": "11",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 13:16:33"
+    "date": "03/07/2026 13:16:33",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Estadio Brígido Iriarte - Grada este ",
@@ -252,7 +280,9 @@
     "persons": "5100",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 13:07:49"
+    "date": "03/07/2026 13:07:49",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Altagracia ",
@@ -269,7 +299,9 @@
     "persons": "275",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "03/07/2026 13:07:25"
+    "date": "03/07/2026 13:07:25",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. María Isabel ",
@@ -286,7 +318,9 @@
     "persons": "120",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "03/07/2026 13:05:31"
+    "date": "03/07/2026 13:05:31",
+    "footprint_m2": 176.0,
+    "gross_area_m2": 1232.0
   },
   {
     "name": "Residencias la colina",
@@ -303,7 +337,9 @@
     "persons": "6",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "03/07/2026 13:01:14"
+    "date": "03/07/2026 13:01:14",
+    "footprint_m2": 29.3,
+    "gross_area_m2": 29.3
   },
   {
     "name": "Edf. El Redentor",
@@ -320,7 +356,9 @@
     "persons": "64",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 12:58:32"
+    "date": "03/07/2026 12:58:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "MI CASITA",
@@ -337,7 +375,9 @@
     "persons": "5",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 12:48:04"
+    "date": "03/07/2026 12:48:04",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Malvin",
@@ -354,7 +394,9 @@
     "persons": "27",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "03/07/2026 12:42:44"
+    "date": "03/07/2026 12:42:44",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 43111.8
   },
   {
     "name": "Mapi",
@@ -371,7 +413,9 @@
     "persons": "4",
     "label": "",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 12:40:44"
+    "date": "03/07/2026 12:40:44",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "BLOQUE 3",
@@ -388,7 +432,9 @@
     "persons": "364",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 12:23:52"
+    "date": "03/07/2026 12:23:52",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "QUINTA VICKY",
@@ -405,7 +451,9 @@
     "persons": "3",
     "label": "",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "03/07/2026 12:22:17"
+    "date": "03/07/2026 12:22:17",
+    "footprint_m2": 251.4,
+    "gross_area_m2": 251.4
   },
   {
     "name": "Anexo Quinta Mirian",
@@ -422,7 +470,9 @@
     "persons": "4",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 12:00:03"
+    "date": "03/07/2026 12:00:03",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Melev",
@@ -439,7 +489,9 @@
     "persons": "20",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 11:36:02"
+    "date": "03/07/2026 11:36:02",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "ARACELIS",
@@ -456,7 +508,9 @@
     "persons": "2",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 11:27:32"
+    "date": "03/07/2026 11:27:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "EDIF. DON SAMUEL",
@@ -473,7 +527,9 @@
     "persons": "136",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 11:15:14"
+    "date": "03/07/2026 11:15:14",
+    "footprint_m2": 619.5,
+    "gross_area_m2": 6195.0
   },
   {
     "name": "Quinta Luna ",
@@ -490,7 +546,9 @@
     "persons": "7",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 11:08:32"
+    "date": "03/07/2026 11:08:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "TORRELENA",
@@ -507,7 +565,9 @@
     "persons": "100",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:57:34"
+    "date": "03/07/2026 10:57:34",
+    "footprint_m2": 617.9,
+    "gross_area_m2": 8650.6
   },
   {
     "name": "Edf. Atlantic (Panadería Moisán)",
@@ -524,7 +584,9 @@
     "persons": "48",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:57:05"
+    "date": "03/07/2026 10:57:05",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio Orinoco",
@@ -541,7 +603,9 @@
     "persons": "50",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 10:49:52"
+    "date": "03/07/2026 10:49:52",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "GIOBALINA",
@@ -558,7 +622,9 @@
     "persons": "4",
     "label": "",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "03/07/2026 10:37:07"
+    "date": "03/07/2026 10:37:07",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Ministerio del Poder Popular para la Educación Universitaria",
@@ -575,7 +641,9 @@
     "persons": "895",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:36:44"
+    "date": "03/07/2026 10:36:44",
+    "footprint_m2": 1250.1,
+    "gross_area_m2": 20001.6
   },
   {
     "name": "Ministerio de Educación (Torre alta principal)",
@@ -592,7 +660,9 @@
     "persons": "2990",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:24:40"
+    "date": "03/07/2026 10:24:40",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Ministerio de Educación (Casa de Andrés Bello)",
@@ -609,7 +679,9 @@
     "persons": "290",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:08:08"
+    "date": "03/07/2026 10:08:08",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "CASA 12 ",
@@ -626,7 +698,9 @@
     "persons": "2",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 10:03:33"
+    "date": "03/07/2026 10:03:33",
+    "footprint_m2": 2067.0,
+    "gross_area_m2": 4134.0
   },
   {
     "name": "Ministerio de Educación (Torre de servicio) ",
@@ -643,7 +717,9 @@
     "persons": "2990",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 10:01:47"
+    "date": "03/07/2026 10:01:47",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio Nicanor Bolet Peraza",
@@ -660,7 +736,9 @@
     "persons": "248",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 09:43:55"
+    "date": "03/07/2026 09:43:55",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Dálmata",
@@ -677,7 +755,9 @@
     "persons": "100",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:43:18"
+    "date": "03/07/2026 09:43:18",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. San Carlos",
@@ -694,7 +774,9 @@
     "persons": "120",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:35:11"
+    "date": "03/07/2026 09:35:11",
+    "footprint_m2": 481.8,
+    "gross_area_m2": 7708.8
   },
   {
     "name": "METEOR",
@@ -711,7 +793,9 @@
     "persons": "30",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "03/07/2026 09:33:35"
+    "date": "03/07/2026 09:33:35",
+    "footprint_m2": 437.0,
+    "gross_area_m2": 1748.0
   },
   {
     "name": "Edf. Paraguay ",
@@ -728,7 +812,9 @@
     "persons": "192",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:24:43"
+    "date": "03/07/2026 09:24:43",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "EDIF. VISTA HERMOSA",
@@ -745,7 +831,9 @@
     "persons": "80",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 09:22:56"
+    "date": "03/07/2026 09:22:56",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Panamá",
@@ -762,7 +850,9 @@
     "persons": "192",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:18:22"
+    "date": "03/07/2026 09:18:22",
+    "footprint_m2": 7004.6,
+    "gross_area_m2": 105069.0
   },
   {
     "name": "Edf. Ecuador",
@@ -779,7 +869,9 @@
     "persons": "192",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:11:27"
+    "date": "03/07/2026 09:11:27",
+    "footprint_m2": 7004.6,
+    "gross_area_m2": 105069.0
   },
   {
     "name": "Res. Versalles",
@@ -796,7 +888,9 @@
     "persons": "168",
     "label": "",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 09:00:38"
+    "date": "03/07/2026 09:00:38",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Don Mario",
@@ -813,7 +907,9 @@
     "persons": "28",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "03/07/2026 08:52:09"
+    "date": "03/07/2026 08:52:09",
+    "footprint_m2": 430.0,
+    "gross_area_m2": 3440.0
   },
   {
     "name": "U.E.N. Edoardo Crema",
@@ -830,7 +926,9 @@
     "persons": "900",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 08:41:32"
+    "date": "03/07/2026 08:41:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio Pacheco",
@@ -847,7 +945,9 @@
     "persons": "30",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "03/07/2026 08:19:56"
+    "date": "03/07/2026 08:19:56",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Prueba",
@@ -864,7 +964,9 @@
     "persons": "1",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "03/07/2026 08:12:53"
+    "date": "03/07/2026 08:12:53",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Iglesia Fuente de Vida",
@@ -881,7 +983,9 @@
     "persons": "150",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 23:15:17"
+    "date": "02/07/2026 23:15:17",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Res. Bulevar",
@@ -898,7 +1002,9 @@
     "persons": "110",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 23:04:44"
+    "date": "02/07/2026 23:04:44",
+    "footprint_m2": 386.4,
+    "gross_area_m2": 1545.6
   },
   {
     "name": "Urb. Tcnel Eliezer Otaiza (OPPE34) TORRE A",
@@ -915,7 +1021,9 @@
     "persons": "378",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "02/07/2026 22:58:23"
+    "date": "02/07/2026 22:58:23",
+    "footprint_m2": 535.3,
+    "gross_area_m2": 6423.6
   },
   {
     "name": "Res. El Parque",
@@ -932,7 +1040,9 @@
     "persons": "85",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "02/07/2026 22:57:54"
+    "date": "02/07/2026 22:57:54",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio Serenata",
@@ -949,7 +1059,9 @@
     "persons": "185",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 22:05:01"
+    "date": "02/07/2026 22:05:01",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Torre 16",
@@ -966,7 +1078,9 @@
     "persons": "110",
     "label": "",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "02/07/2026 20:33:23"
+    "date": "02/07/2026 20:33:23",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "OPP-18 A y B",
@@ -983,7 +1097,9 @@
     "persons": "576",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 16:54:44"
+    "date": "02/07/2026 16:54:44",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "INTT Sede Central",
@@ -1000,7 +1116,9 @@
     "persons": "500",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 16:37:44"
+    "date": "02/07/2026 16:37:44",
+    "footprint_m2": 688.3,
+    "gross_area_m2": 5506.4
   },
   {
     "name": "Residencia Paraiso",
@@ -1017,7 +1135,9 @@
     "persons": "35",
     "label": "",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 16:25:24"
+    "date": "02/07/2026 16:25:24",
+    "footprint_m2": 494.3,
+    "gross_area_m2": 5437.3
   },
   {
     "name": "Edf. Amagrazia",
@@ -1034,7 +1154,9 @@
     "persons": "52",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 16:12:21"
+    "date": "02/07/2026 16:12:21",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Que Vadis ",
@@ -1051,7 +1173,9 @@
     "persons": "47",
     "label": "Acceso Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "02/07/2026 16:05:54"
+    "date": "02/07/2026 16:05:54",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Ministerio de Ciencia y Tecnología ",
@@ -1068,7 +1192,9 @@
     "persons": "2800",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 16:05:35"
+    "date": "02/07/2026 16:05:35",
+    "footprint_m2": 5247.4,
+    "gross_area_m2": 141679.8
   },
   {
     "name": "Edf. Venezuela",
@@ -1085,7 +1211,9 @@
     "persons": "192",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 15:36:28"
+    "date": "02/07/2026 15:36:28",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Perú",
@@ -1102,7 +1230,9 @@
     "persons": "192",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 15:29:43"
+    "date": "02/07/2026 15:29:43",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Uruguay",
@@ -1119,7 +1249,9 @@
     "persons": "192",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "02/07/2026 15:22:04"
+    "date": "02/07/2026 15:22:04",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Urb. Gigante de la Patria ",
@@ -1136,7 +1268,9 @@
     "persons": "480",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 15:04:29"
+    "date": "02/07/2026 15:04:29",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "RESIDENCIAS COUNTRY",
@@ -1153,7 +1287,9 @@
     "persons": "400",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 14:52:58"
+    "date": "02/07/2026 14:52:58",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "OFICINA DE ABOGADOS CHUAO",
@@ -1170,7 +1306,9 @@
     "persons": "25",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 14:46:35"
+    "date": "02/07/2026 14:46:35",
+    "footprint_m2": 871.4,
+    "gross_area_m2": 2614.2
   },
   {
     "name": "Edificio Glorieta",
@@ -1187,7 +1325,9 @@
     "persons": "980",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 14:41:22"
+    "date": "02/07/2026 14:41:22",
+    "footprint_m2": 522.6,
+    "gross_area_m2": 5226.0
   },
   {
     "name": "Edf. Paraiso",
@@ -1204,7 +1344,9 @@
     "persons": "8",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 13:59:46"
+    "date": "02/07/2026 13:59:46",
+    "footprint_m2": 234.2,
+    "gross_area_m2": 1171.0
   },
   {
     "name": "Edf. Butanta",
@@ -1221,7 +1363,9 @@
     "persons": "21",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 13:38:32"
+    "date": "02/07/2026 13:38:32",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edif. Monroy",
@@ -1238,7 +1382,9 @@
     "persons": "16",
     "label": "Acceso Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "02/07/2026 13:35:50"
+    "date": "02/07/2026 13:35:50",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Osito",
@@ -1255,7 +1401,9 @@
     "persons": "50",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 13:27:50"
+    "date": "02/07/2026 13:27:50",
+    "footprint_m2": 223.8,
+    "gross_area_m2": 1790.4
   },
   {
     "name": "Edf. Ávila",
@@ -1272,7 +1420,9 @@
     "persons": "60",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "02/07/2026 13:14:47"
+    "date": "02/07/2026 13:14:47",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "OPP20 Torre C",
@@ -1289,7 +1439,9 @@
     "persons": "59",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 12:59:45"
+    "date": "02/07/2026 12:59:45",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "OPP20 Torre B",
@@ -1306,7 +1458,9 @@
     "persons": "78",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "02/07/2026 12:51:28"
+    "date": "02/07/2026 12:51:28",
+    "footprint_m2": 1379.5,
+    "gross_area_m2": 11036.0
   },
   {
     "name": "OPP20 Torre A",
@@ -1323,7 +1477,9 @@
     "persons": "264",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 12:38:28"
+    "date": "02/07/2026 12:38:28",
+    "footprint_m2": 1379.5,
+    "gross_area_m2": 27590.0
   },
   {
     "name": "Quebrada Honda B",
@@ -1340,7 +1496,9 @@
     "persons": "480",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 12:24:22"
+    "date": "02/07/2026 12:24:22",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Quebrada Honda A",
@@ -1357,7 +1515,9 @@
     "persons": "720",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 11:37:43"
+    "date": "02/07/2026 11:37:43",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Valderrey",
@@ -1374,7 +1534,9 @@
     "persons": "90",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 11:32:26"
+    "date": "02/07/2026 11:32:26",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "CASA #30 SECTOR 2",
@@ -1391,7 +1553,9 @@
     "persons": "16",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "02/07/2026 11:20:14"
+    "date": "02/07/2026 11:20:14",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Res. Principal Palace",
@@ -1408,7 +1572,9 @@
     "persons": "32",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 10:55:29"
+    "date": "02/07/2026 10:55:29",
+    "footprint_m2": 491.2,
+    "gross_area_m2": 4420.8
   },
   {
     "name": "Conjunto Res. Valle Abajo",
@@ -1425,7 +1591,9 @@
     "persons": "272",
     "label": "",
     "result": "Acceso Restringido",
-    "date": "02/07/2026 10:32:48"
+    "date": "02/07/2026 10:32:48",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Monte Blanco",
@@ -1442,7 +1610,9 @@
     "persons": "84",
     "label": "",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "02/07/2026 10:17:17"
+    "date": "02/07/2026 10:17:17",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Bloque 4 (A,B,C,D,G)",
@@ -1459,7 +1629,9 @@
     "persons": "140",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "02/07/2026 09:40:36"
+    "date": "02/07/2026 09:40:36",
+    "footprint_m2": 1381.3,
+    "gross_area_m2": 4143.9
   },
   {
     "name": "San Vicente",
@@ -1476,7 +1648,9 @@
     "persons": "60",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "02/07/2026 09:31:04"
+    "date": "02/07/2026 09:31:04",
+    "footprint_m2": 193.5,
+    "gross_area_m2": 967.5
   },
   {
     "name": "Edif. Mediterráneo ",
@@ -1493,7 +1667,9 @@
     "persons": "100",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "02/07/2026 07:24:22"
+    "date": "02/07/2026 07:24:22",
+    "footprint_m2": 260.4,
+    "gross_area_m2": 1562.4
   },
   {
     "name": "Residencia Sol y Mar",
@@ -1510,7 +1686,9 @@
     "persons": "160",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "02/07/2026 07:05:55"
+    "date": "02/07/2026 07:05:55",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "De Oro",
@@ -1527,7 +1705,9 @@
     "persons": "100",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "01/07/2026 22:19:00"
+    "date": "01/07/2026 22:19:00",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Grano",
@@ -1544,7 +1724,9 @@
     "persons": "150",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 22:06:55"
+    "date": "01/07/2026 22:06:55",
+    "footprint_m2": 1425.2,
+    "gross_area_m2": 18527.6
   },
   {
     "name": "Edificio México",
@@ -1561,7 +1743,9 @@
     "persons": "110",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 22:01:05"
+    "date": "01/07/2026 22:01:05",
+    "footprint_m2": 143.1,
+    "gross_area_m2": 1574.1
   },
   {
     "name": "Mirador",
@@ -1578,7 +1762,9 @@
     "persons": "300",
     "label": "Acceso Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "01/07/2026 21:57:47"
+    "date": "01/07/2026 21:57:47",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edif. Angostura ",
@@ -1595,7 +1781,9 @@
     "persons": "35",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 20:39:17"
+    "date": "01/07/2026 20:39:17",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Instituto de Ingeniería ",
@@ -1612,7 +1800,9 @@
     "persons": "100",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 20:33:03"
+    "date": "01/07/2026 20:33:03",
+    "footprint_m2": 1713.5,
+    "gross_area_m2": 5140.5
   },
   {
     "name": "Residencias Aereas",
@@ -1629,7 +1819,9 @@
     "persons": "190",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido | Acceso Permitido",
-    "date": "01/07/2026 20:17:10"
+    "date": "01/07/2026 20:17:10",
+    "footprint_m2": 2669.5,
+    "gross_area_m2": 37373.0
   },
   {
     "name": "Edificio Bolivar",
@@ -1646,7 +1838,9 @@
     "persons": "150",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 19:55:23"
+    "date": "01/07/2026 19:55:23",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio de materiales",
@@ -1663,7 +1857,9 @@
     "persons": "50",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 19:41:43"
+    "date": "01/07/2026 19:41:43",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Comedor de CANTV ",
@@ -1680,7 +1876,9 @@
     "persons": "200",
     "label": "Acceso Permitido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 19:30:24"
+    "date": "01/07/2026 19:30:24",
+    "footprint_m2": 934.0,
+    "gross_area_m2": 2802.0
   },
   {
     "name": "Residencias Sucre",
@@ -1697,7 +1895,9 @@
     "persons": "85",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "01/07/2026 14:11:20"
+    "date": "01/07/2026 14:11:20",
+    "footprint_m2": 1761.4,
+    "gross_area_m2": 5284.2
   },
   {
     "name": "Titanio",
@@ -1714,7 +1914,9 @@
     "persons": "50",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 14:08:33"
+    "date": "01/07/2026 14:08:33",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Los Angeles",
@@ -1731,7 +1933,9 @@
     "persons": "35",
     "label": "",
     "result": "Acceso No Permitido | Acceso Permitido",
-    "date": "01/07/2026 13:57:35"
+    "date": "01/07/2026 13:57:35",
+    "footprint_m2": 655.7,
+    "gross_area_m2": 3278.5
   },
   {
     "name": "Edf. Astor",
@@ -1748,7 +1952,9 @@
     "persons": "85",
     "label": "",
     "result": "Acceso Permitido | Acceso Restringido",
-    "date": "01/07/2026 13:55:51"
+    "date": "01/07/2026 13:55:51",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "EDIF. DON AGUSTIN",
@@ -1765,7 +1971,9 @@
     "persons": "544",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 12:47:25"
+    "date": "01/07/2026 12:47:25",
+    "footprint_m2": 688.5,
+    "gross_area_m2": 11704.5
   },
   {
     "name": "EDIFICIO MARSTOL",
@@ -1782,7 +1990,9 @@
     "persons": "12",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 12:35:21"
+    "date": "01/07/2026 12:35:21",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Res. RAG",
@@ -1799,7 +2009,9 @@
     "persons": "80",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 12:31:57"
+    "date": "01/07/2026 12:31:57",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 129335.4
   },
   {
     "name": "Parque de bomberos del aeropuerto ",
@@ -1816,7 +2028,9 @@
     "persons": "25",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido",
-    "date": "01/07/2026 12:22:27"
+    "date": "01/07/2026 12:22:27",
+    "footprint_m2": 2364.6,
+    "gross_area_m2": 7093.8
   },
   {
     "name": "EDIFICIO DON AGUSTIN",
@@ -1833,7 +2047,9 @@
     "persons": "544",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 12:19:13"
+    "date": "01/07/2026 12:19:13",
+    "footprint_m2": 688.5,
+    "gross_area_m2": 11704.5
   },
   {
     "name": "Edf. La Floridiana",
@@ -1850,7 +2066,9 @@
     "persons": "27",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 12:16:58"
+    "date": "01/07/2026 12:16:58",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Paraiso ",
@@ -1867,7 +2085,9 @@
     "persons": "30",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 12:10:34"
+    "date": "01/07/2026 12:10:34",
+    "footprint_m2": 1115.2,
+    "gross_area_m2": 4460.8
   },
   {
     "name": "Millenium San Bernardino",
@@ -1884,7 +2104,9 @@
     "persons": "84",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 12:03:42"
+    "date": "01/07/2026 12:03:42",
+    "footprint_m2": 494.3,
+    "gross_area_m2": 5931.6
   },
   {
     "name": "Res. Lourdes",
@@ -1901,7 +2123,9 @@
     "persons": "52",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 11:57:14"
+    "date": "01/07/2026 11:57:14",
+    "footprint_m2": 917.0,
+    "gross_area_m2": 6419.0
   },
   {
     "name": "Edificio Macari",
@@ -1918,7 +2142,9 @@
     "persons": "14",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 11:39:57"
+    "date": "01/07/2026 11:39:57",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Nelcar",
@@ -1935,7 +2161,9 @@
     "persons": "30",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "01/07/2026 11:38:56"
+    "date": "01/07/2026 11:38:56",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Mari",
@@ -1952,7 +2180,9 @@
     "persons": "32",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 11:03:59"
+    "date": "01/07/2026 11:03:59",
+    "footprint_m2": 501.9,
+    "gross_area_m2": 2007.6
   },
   {
     "name": "Edf. 27 noviembre. Comando General",
@@ -1969,7 +2199,9 @@
     "persons": "300",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 10:49:20"
+    "date": "01/07/2026 10:49:20",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. La Montaña",
@@ -1986,7 +2218,9 @@
     "persons": "40",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 10:36:44"
+    "date": "01/07/2026 10:36:44",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edif. Continente",
@@ -2003,7 +2237,9 @@
     "persons": "240",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 10:29:03"
+    "date": "01/07/2026 10:29:03",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Caribana",
@@ -2020,7 +2256,9 @@
     "persons": "80",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "01/07/2026 10:06:38"
+    "date": "01/07/2026 10:06:38",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edif. República",
@@ -2037,7 +2275,9 @@
     "persons": "240",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "01/07/2026 09:33:55"
+    "date": "01/07/2026 09:33:55",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Terraza 2 Paraiso Torre F",
@@ -2054,7 +2294,9 @@
     "persons": "320",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 09:32:19"
+    "date": "01/07/2026 09:32:19",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Iasa",
@@ -2071,7 +2313,9 @@
     "persons": "200",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 09:25:22"
+    "date": "01/07/2026 09:25:22",
+    "footprint_m2": 1526.2,
+    "gross_area_m2": 13735.8
   },
   {
     "name": "Edf. Orinoco",
@@ -2088,7 +2332,9 @@
     "persons": "36",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "01/07/2026 09:16:43"
+    "date": "01/07/2026 09:16:43",
+    "footprint_m2": 720.6,
+    "gross_area_m2": 2882.4
   },
   {
     "name": "Edf. Aldebaran",
@@ -2105,7 +2351,9 @@
     "persons": "150",
     "label": "",
     "result": "Acceso No Permitido",
-    "date": "01/07/2026 09:08:00"
+    "date": "01/07/2026 09:08:00",
+    "footprint_m2": 193.5,
+    "gross_area_m2": 1741.5
   },
   {
     "name": "Torre Carabobo",
@@ -2122,7 +2370,9 @@
     "persons": "120",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 21:11:37"
+    "date": "30/06/2026 21:11:37",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Winco",
@@ -2139,7 +2389,9 @@
     "persons": "45",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 21:06:07"
+    "date": "30/06/2026 21:06:07",
+    "footprint_m2": 150.9,
+    "gross_area_m2": 452.7
   },
   {
     "name": "Sylvia",
@@ -2156,7 +2408,9 @@
     "persons": "80",
     "label": "Acceso Restringido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "30/06/2026 20:57:20"
+    "date": "30/06/2026 20:57:20",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio Los Cuadros IV ",
@@ -2173,7 +2427,9 @@
     "persons": "75",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 19:31:16"
+    "date": "30/06/2026 19:31:16",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Yuruani",
@@ -2190,7 +2446,9 @@
     "persons": "180",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 19:05:30"
+    "date": "30/06/2026 19:05:30",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 71853.0
   },
   {
     "name": "Edif. Salto Angel",
@@ -2207,7 +2465,9 @@
     "persons": "120",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 19:03:06"
+    "date": "30/06/2026 19:03:06",
+    "footprint_m2": 509.2,
+    "gross_area_m2": 5092.0
   },
   {
     "name": "Edf. Odeon",
@@ -2224,7 +2484,9 @@
     "persons": "38",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "30/06/2026 18:55:53"
+    "date": "30/06/2026 18:55:53",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Fhilippe",
@@ -2241,7 +2503,9 @@
     "persons": "40",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 18:44:00"
+    "date": "30/06/2026 18:44:00",
+    "footprint_m2": 465.8,
+    "gross_area_m2": 2794.8
   },
   {
     "name": "Edf. Excelsior",
@@ -2258,7 +2522,9 @@
     "persons": "100",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "30/06/2026 18:28:52"
+    "date": "30/06/2026 18:28:52",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Residencias DARIJAK 1 Y 2 ",
@@ -2275,7 +2541,9 @@
     "persons": "440",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 18:18:37"
+    "date": "30/06/2026 18:18:37",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edif. Roteca",
@@ -2292,7 +2560,9 @@
     "persons": "60",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido | Acceso Restringido",
-    "date": "30/06/2026 18:15:14"
+    "date": "30/06/2026 18:15:14",
+    "footprint_m2": 597.4,
+    "gross_area_m2": 6571.4
   },
   {
     "name": "Edificio MORUY",
@@ -2309,7 +2579,9 @@
     "persons": "60",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 18:05:16"
+    "date": "30/06/2026 18:05:16",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. 15-32/241",
@@ -2326,7 +2598,9 @@
     "persons": "5",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 18:02:57"
+    "date": "30/06/2026 18:02:57",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "El Valle",
@@ -2343,7 +2617,9 @@
     "persons": "240",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:55:28"
+    "date": "30/06/2026 17:55:28",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Japimar",
@@ -2360,7 +2636,9 @@
     "persons": "184",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:41:52"
+    "date": "30/06/2026 17:41:52",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 186817.8
   },
   {
     "name": "Qta. María Luisa (Edf. restante)",
@@ -2377,7 +2655,9 @@
     "persons": "64",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:28:34"
+    "date": "30/06/2026 17:28:34",
+    "footprint_m2": 1371.6,
+    "gross_area_m2": 5486.4
   },
   {
     "name": "Brisas de Gamboa",
@@ -2394,7 +2674,9 @@
     "persons": "92",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:25:18"
+    "date": "30/06/2026 17:25:18",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edificio JAMARCO ",
@@ -2411,7 +2693,9 @@
     "persons": "270",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:23:09"
+    "date": "30/06/2026 17:23:09",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Qta. María Luisa",
@@ -2428,7 +2712,9 @@
     "persons": "64",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido",
-    "date": "30/06/2026 17:21:28"
+    "date": "30/06/2026 17:21:28",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. 31-1",
@@ -2445,7 +2731,9 @@
     "persons": "7",
     "label": "Acceso No Permitido",
     "result": "Acceso No Permitido",
-    "date": "30/06/2026 17:10:48"
+    "date": "30/06/2026 17:10:48",
+    "footprint_m2": 14370.6,
+    "gross_area_m2": 14370.6
   },
   {
     "name": "Simonet",
@@ -2462,7 +2750,9 @@
     "persons": "60",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 17:04:21"
+    "date": "30/06/2026 17:04:21",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Jerez",
@@ -2479,7 +2769,9 @@
     "persons": "11",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 16:52:40"
+    "date": "30/06/2026 16:52:40",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Stajak",
@@ -2496,7 +2788,9 @@
     "persons": "612",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 16:51:41"
+    "date": "30/06/2026 16:51:41",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Orlando",
@@ -2513,7 +2807,9 @@
     "persons": "260",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 16:42:31"
+    "date": "30/06/2026 16:42:31",
+    "footprint_m2": 577.4,
+    "gross_area_m2": 7506.2
   },
   {
     "name": "Centro Candoral",
@@ -2530,7 +2826,9 @@
     "persons": "380",
     "label": "",
     "result": "Acceso Permitido",
-    "date": "30/06/2026 16:39:36"
+    "date": "30/06/2026 16:39:36",
+    "footprint_m2": null,
+    "gross_area_m2": null
   },
   {
     "name": "Edf. Doraloy",
@@ -2547,6 +2845,8 @@
     "persons": "144",
     "label": "Acceso Restringido",
     "result": "Acceso Restringido",
-    "date": "30/06/2026 16:30:13"
+    "date": "30/06/2026 16:30:13",
+    "footprint_m2": 342.2,
+    "gross_area_m2": 3079.8
   }
 ]
