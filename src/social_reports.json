@@ -1,0 +1,3471 @@
+[
+  {
+    "id": 61,
+    "name": "AEROPUERTO INTERNACIONAL SIMÓN  BOLIVAR DE MAIQUETIA",
+    "description": "pequeños desprendimientos del techo",
+    "lat": 10.599390550852233,
+    "lng": -67.00146048812451,
+    "place": "HXXX+M99, Maiquetía 1162, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T09:46:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_Gr7KuAAs/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": ""
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 70,
+    "name": "Afectaciòn en el casco central de charallave",
+    "description": "Afectaciòn en el casco central de charallave al frente de corpomiranda",
+    "lat": 10.246668390773294,
+    "lng": -66.85856674805324,
+    "place": "casco central de charallave",
+    "state": "Miranda",
+    "municipality": "Cristóbal Rojas",
+    "date": "2026-06-25T10:49:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": ""
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 121,
+    "name": "Altamira Sur",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido. El sector de Altamira, municipio Chacao, muestra severos daños estructurales y edificios colapsados tras la sacudida telúrica que sufrió Venezuela en la tarde del 24 de junio.",
+    "lat": 10.524944231109181,
+    "lng": -66.70898437500001,
+    "place": "Residencias Torre Altamira Sur, F5V2+RPG, Caracas 1060, Miranda, Venezuela",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T20:00:00+00:00",
+    "sources": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/teleSUR/videos/el-sector-de-altamira-municipio-chacao-muestra-severos-da%C3%B1os-estructurales-y-edi/3243673045820482/",
+        "text": "El sector de Altamira, municipio Chacao, muestra severos daños estructurales y edificios colapsados tras la sacudida telúrica que sufrió Venezuela en la tarde del 24 de junio."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 99,
+    "name": "Avenida Las Fuentes, El Paraíso, Caracas.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.48492,
+    "lng": -66.94108,
+    "place": "Urbanización Las Fuentes del Paraíso.  Avenida Las Fuentes, El Paraíso, Caracas.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T18:02:17.530000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA6I8igEdT/?utm_source=ig_web_button_share_sheet",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 111,
+    "name": "Bello Horizonte (playa grande)",
+    "description": "el edificio Bello Horizonte de playa grande . Personas atrapadas y familiares y vecinos desesperados por la falta de apoyo de los organismos responsables",
+    "lat": 10.609876533742717,
+    "lng": -67.0271690475502,
+    "place": "en el sector de Playa Grande, en Catia la Mar",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T19:47:51.799000+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://twitter.com/alfonzop04/status/2070189077136077073",
+        "text": "el edificio Bello Horizonte de playa grande . Personas atrapadas y familiares y vecinos desesperados por la falta de apoyo de los organismos responsables"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 200,
+    "name": "Bloque 4 UD2 de Caricuao",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.43384,
+    "lng": -66.98409,
+    "place": "Bloque 4 UD2 de Caricuao DISTRITO CAPITAL CARACAS",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T16:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaEBzbRMfOD/?utm_source=ig_web_button_share_sheet",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "osm"
+  },
+  {
+    "id": 216,
+    "name": "Bloque 5 de Pinto Salinas",
+    "description": "parte de la fachada cayo desplomada y el edificio con grietas y fallas tras el terremoto",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 63,
+    "name": "BLOQUE 5 PINTO SALINAS",
+    "description": "Edificio Bloque 5, Última Zona en Pinto Salinas 11:10 pm, ALA NORTE COLAPSADA.",
+    "lat": 10.511257760833146,
+    "lng": -66.8891576190222,
+    "place": "Bloque 5, Pinto salinas, Sector última zona , al lado de la cancha.Av. Principal trujillo, Caracas 1050, Distrito Capital",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T07:52:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_l_ZHBiKN/",
+        "text": "Edificio Bloque 5, Última Zona en Pinto Salinas 11:10 pm, LADO NORTE COMPLETAMENTE COLAPSADO"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 93,
+    "name": "bloque 8 ,oropeza castillo,guarenas",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.4622,
+    "lng": -66.61272,
+    "place": "sector oropeza castillo guarenas , bloque 8",
+    "state": "Miranda",
+    "municipality": "Plaza",
+    "date": "2026-06-25T16:38:05.881000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaAAfmDjoRg/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": 3,
+    "floors_source": "osm"
+  },
+  {
+    "id": 67,
+    "name": "CALLE DE LOS PARAGUAS",
+    "description": "Avenida Universidad con la Plaza El Venezolano, PRESENTA GRIETAS EN LA INFRAESTRUCTURA, DE LA CAFETERIA PARAMO Y SUS ADYACENCIAS.",
+    "lat": 10.504164808933307,
+    "lng": -66.91264971532372,
+    "place": "\"Calle de los paraguas\" en el pasaje Linares, que conecta a la avenida Universidad con la Plaza El Venezolano, ubicado en el centro de Caracas.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T08:20:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_S_gdN_Wt/?igsh=NGE4dDVjeG53ZXBz",
+        "text": "DAÑOS EN LA INFRAESTRUCTURA, Y LAS ADYACENCIAS DE LA CAFETERIA PARAMO, Y DE LA PLAZA BOLIVAR DE CARACAS."
+      }
+    ],
+    "images": [],
+    "floors": 20,
+    "floors_source": "osm"
+  },
+  {
+    "id": 76,
+    "name": "Carretera Panamericana",
+    "description": "Autoridades informan que ya se encuentra la maquinaria pesada en el kilómetro 4 de la Carretera Panamericana, ejecutando las labores de remoción de tierra y escombros tras el derrumbe que interrumpió por completo el tránsito en la dirección Caracas - Los Teques. CULMINADO",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 49,
+    "name": "Catia La Mar",
+    "description": "Aún no se reportan la cifra de heridos y fallecidos. Los organismos de seguridad y seguridad ciudadana se encuentran desplegados en todo el territorio nacional",
+    "lat": 10.599627228551483,
+    "lng": -67.04000382735357,
+    "place": "Catia La Mar La Guaira Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T06:59:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_Rs_qAPiG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Aún no se reportan la cifra de heridos y fallecidos. Los organismos de seguridad y seguridad ciudadana se encuentran desplegados en todo el territorio nacional \n."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 186,
+    "name": "CC Center Plaza",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido, Piso 3, Guatire.",
+    "lat": 10.4715233,
+    "lng": -66.5412951,
+    "place": "Calle Miranda, Guatire CC Center Plaza, Piso 3",
+    "state": "Miranda",
+    "municipality": "Zamora",
+    "date": "2026-06-26T20:20:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDooXGu32R/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": 3,
+    "floors_source": "text"
+  },
+  {
+    "id": 24,
+    "name": "CC. LA CASCADA",
+    "description": "El movimiento telúrico ocurrido en la tarde de hoy, generó graves daños estructurales en centros comerciales de Los Altos Mirandinos, como por ejemplo el Centro Comercial La Cascada y también La Casona",
+    "lat": 10.354614826109822,
+    "lng": -67.00378233251725,
+    "place": "Carretera Panamericana, Km 21 Sector C. Corralito, Municipio Carrizal, Miranda",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:25:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_MFmNgCQ1/?igsh=dHk0NW9uYXQ4aGVz&img_index=2",
+        "text": "Reportan algunos daños estructurales en el CC La Cascada de Carrizal sin heridos"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 53,
+    "name": "C.C Maracay Plaza",
+    "description": "Presenta fracturas estructurales tras los temblores. (magnitud 7,2 y replica de 7,5).",
+    "lat": 10.232977195060254,
+    "lng": -67.59773748219519,
+    "place": "Local PB 95 Av. Bermudez, Maracay 2101, Aragua, Venezuela",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-25T09:16:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/maibortpetit/status/2069990444138746210",
+        "text": "presentó fracturas estructurales tras los temblores"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 48,
+    "name": "Centro Comercial Buenaventura",
+    "description": "Este agrietamiento y caída de mampostería externa ocurrió como consecuencia del fuerte sismo que sacudió la región central del país.",
+    "lat": 10.465844587606208,
+    "lng": -66.57527699976315,
+    "place": "Av. Intercomunal Guarenas - Guatire, Guarenas 1221, Miranda, Venezuela",
+    "state": "Miranda",
+    "municipality": "Zamora",
+    "date": "2026-06-25T06:55:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_CUC1vBMo/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Este agrietamiento y caída de mampostería externa ocurrió como consecuencia del fuerte sismo que sacudió la región central del país"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 107,
+    "name": "Centro Comercial Castillejo, Guatire.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.4695342,
+    "lng": -66.5469199,
+    "place": "Castillejo, Guatire.",
+    "state": "Miranda",
+    "municipality": "Zamora",
+    "date": "2026-06-25T19:14:09.709000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_XBUyRtKi/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 40,
+    "name": "Choroni 2110",
+    "description": "En Choroní, estado Aragua, se reportan daños materiales significativos en su infraestructura residencial; tal como se observa en estas imágenes, el movimiento telúrico provocó el colapso parcial de diversas viviendas tradicionales, dejando escombros en las calles y obligando a los habitantes a permanecer en el exterior de sus inmuebles por seguridad.",
+    "lat": 10.4884231030147,
+    "lng": -67.61218078070324,
+    "place": "Choroni Aragua Venezuela",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-25T06:23:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_laFQRXl4/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "En Choroní, estado Aragua, se reportan daños materiales significativos en su infraestructura residencial; tal como se observa en estas imágenes, el movimiento telúrico provocó el colapso parcial de diversas viviendas tradicionales, dejando escombros en las calles y obligando a los habitantes a permanecer en el exterior de sus inmuebles por seguridad."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 148,
+    "name": "Colapso de vivienda el junquito  Km 7",
+    "description": "Se reporta el colapso de la vivienda, dejando a la estructura inhabilitada. Colapso de paredes laterales y caída de techo / pérdida del 100% de los enseres.",
+    "lat": 10.461711081037336,
+    "lng": -67.07889318466188,
+    "place": "se ubican en la Parroquia El Junquito, Km 7, sector Guaicaipuro II y en el Km 12,",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T07:03:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaCBSK2jca5/",
+        "text": "Se reporta el colapso de la vivienda, dejando a la estructura inhabilitada. Colapso de paredes laterales y caída de techo / pérdida del 100% de los enseres."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 34,
+    "name": "Complejo Residencial Caribe",
+    "description": "En la localidad de Tucacas, un reconocido complejo residencial y hotelero sufrió el colapso total de uno de sus módulos de apartamentos de varios niveles.\n\nVideos captados en el lugar muestran la magnitud del siniestro, con la edificación reducida a un cúmulo de placas de concreto y escombros. El derrumbe afectó directamente la zona del estacionamiento adyacente, sepultando de manera total y parcial varios vehículos particulares que se encontraban estacionados en los alrededores.",
+    "lat": 10.773116684265167,
+    "lng": -68.32646423333058,
+    "place": "QMFF+5C3, Tucacas 2055, Falcón, Venezuela",
+    "state": "Falcón",
+    "municipality": "Silva",
+    "date": "2026-06-25T05:50:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_r3OdESND/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "En la localidad de Tucacas, un reconocido complejo residencial y hotelero sufrió el colapso total de uno de sus módulos de apartamentos de varios niveles.\n\nVideos captados en el lugar muestran la magnitud del siniestro, con la edificación reducida a un cúmulo de placas de concreto y escombros. El derrumbe afectó directamente la zona del estacionamiento adyacente, sepultando de manera total y parcial varios vehículos particulares que se encontraban estacionados en los alrededores."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 64,
+    "name": "Comunidad  Buena Vista",
+    "description": "Edificio 2J se removieron las Escalas. Edificio 2p se cayeron 2 tramos de Escalera, Edificio 1A 5 Tramos de escalera, 1C 1 tramos de escalera, Edificio 2A se removieron las escaleras, Edificio 2C se cayeron 3 tramos de Escalera, Edificio 2G se cayeron  2 tramos de escalera. La mayoría de los demás edificios de alguna o otra manera sufrieron daños en sus escaleras.",
+    "lat": 10.4790321,
+    "lng": -66.542887,
+    "place": "Guatire , residencia buena vista",
+    "state": "Miranda",
+    "municipality": "Zamora",
+    "date": "2026-06-25T15:48:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_k-QXx-H3/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 210,
+    "name": "Conjunto Residencial Casas del Mar",
+    "description": "El Conjunto Residencial Palafito del Mar, ubicado en la Avenida La Playa del sector Caribe/Playa Los Cocos (Caraballeda, Estado La Guaira), colapsó a causa del reciente terremoto. Familiares y voluntarios han denunciado la necesidad urgente de maquinaria pesada y equipos de rescate especializados para continuar con la búsqueda de sobrevivientes",
+    "lat": 10.779656543856216,
+    "lng": -68.33131364695619,
+    "place": "QMFC+5X7, Tucacas 2055, Falcón, Venezuela",
+    "state": "Falcón",
+    "municipality": "Falcón",
+    "date": "2026-06-29T05:56:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/Juanegron/status/2071355922501308500",
+        "text": "INDIGNANTE | Cuatro días después del terremoto, los vecinos de Palafito del Mar denuncian que siguen sin recibir maquinaria ni equipos de rescate.\n\n“Aquí nadie ha venido a ayudarnos”.\n\nEs desgarrador que el régimen sea incapaz de prestarles una máquina."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaIvZxCAqax/",
+        "text": "🇻🇪 FAMILIAS DE LOS PALAFITOS DE MAR CARIBE CIERRAN LAS CALLES Y EXIGEN MAQUINARIA PARA RESCATAR A SUS SERES QUERIDOS ATRAPADOS BAJO LOS ESCOMBROS\n\nHabitantes del sector Mar Caribe, en la zona de los palafitos, bloquearon las vías en señal de protesta para exigir el envío inmediato de maquinaria pesada que permita continuar las labores de búsqueda y rescate de sus familiares.\n\nLos manifestantes aseguran que todavía hay personas atrapadas bajo los escombros y denuncian que, aunque la maquinaria se encuentra a poca distancia del lugar, aún no ha sido movilizada hacia la zona donde la necesitan.\n\n🚜 Los vecinos hacen un llamado urgente a las autoridades para que prioricen el despliegue de equipos pesados y aceleren las operaciones de rescate, mientras el tiempo sigue corriendo para quienes permanecen desaparecidos.\n\nHasta el momento, no se ha informado oficialmente sobre las razones por las que la maquinaria no habría ingresado al sector ni cuándo podrían reforzarse las labores en ese punto.\n\n#Venezuela #LaGuaira #Rescate #Emergencia #urgente"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaJtHCNqzos/",
+        "text": "Mientras continúan las labores tras el terremoto en Venezuela, ciudadanos han comenzado a utilizar sus propios vehículos para retirar grandes escombros debido a la escasez de maquinaria pesada en las zonas afectadas.\n\nLas imágenes muestran a vecinos colaborando en las tareas de rescate y despeje."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 145,
+    "name": "Conjunto Residencial Greco",
+    "description": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.2414968,
+    "lng": -67.5604973,
+    "place": "El Conjunto Residencial Greco se encuentra ubicado en la Urbanización San Jacinto, Avenida 5, en la ciudad de Maracay, Estado Aragua.",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T05:48:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAuC4rpUxM/",
+        "text": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 203,
+    "name": "Conjunto Residencial La Mar Suites, Tucacas",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 143,
+    "name": "Conjunto Residencial Versalles",
+    "description": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.2586,
+    "lng": -67.5661,
+    "place": "El Conjunto Residencial Versalles está ubicado en la Urbanización San Jacinto, en la zona noreste de Maracay, Municipio Girardot, Estado Aragua.",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T04:58:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAuC4rpUxM/",
+        "text": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 168,
+    "name": "Daño en la Iglesia Matriz de La Victoria.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.22531054926541,
+    "lng": -67.33852166936187,
+    "place": "6MG6+4JH, C. Candelaria Sur, La Victoria 2121, Aragua, Venezuela",
+    "state": "Aragua",
+    "municipality": "José Félix Ribas",
+    "date": "2026-06-26T04:06:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_YB9whVHn/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Fachada de la Iglesia Matriz en la ciudad de La Victoria sufrió daños estructurales debido al doble terremoto."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 72,
+    "name": "Daños extruturales",
+    "description": "Daños en la plaza Bolívar de Charallave",
+    "lat": 10.245708272302362,
+    "lng": -66.85867848486075,
+    "place": "plaza Bolívar de Charallave",
+    "state": "Miranda",
+    "municipality": "Cristóbal Rojas",
+    "date": "2026-06-25T09:03:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": ""
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 38,
+    "name": "Distribuidor Redoma Palma Sola",
+    "description": "José Manuel González\n@josemagonzalezz\n·\n1h\n#Carabobo I Carretera de la Redoma de Morón, en el municipio Juan José Mora, sufrió impresionantes grietas tras el #sismo registrado la tarde de este #24Jun.",
+    "lat": 10.503804494078292,
+    "lng": -68.18933217023543,
+    "place": "MORON",
+    "state": "Carabobo",
+    "municipality": "Juan José Mora",
+    "date": "2026-06-25T06:10:45.247000+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/josemagonzalezz/status/2070005648327078295?s=20",
+        "text": "José Manuel González\n@josemagonzalezz\n·\n1h\n#Carabobo I Carretera de la Redoma de Morón, en el municipio Juan José Mora, sufrió impresionantes grietas tras el #sismo registrado la tarde de este #24Jun."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 157,
+    "name": "Edif Candelaria Center",
+    "description": "Edif Candelaria Center afectacion",
+    "lat": 10.50650520197744,
+    "lng": -66.90480709075929,
+    "place": "Avenida Este 0, entre la Esquina de la Cruz y la Esquina de Alcabala, Parroquia La Candelaria,",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T22:45:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/CarlosJRojas13/status/2070277473414038002?s=20",
+        "text": "presenta fallas estructurales graves con grietas de gran profundidad"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 214,
+    "name": "edificio abitare",
+    "description": "el edificio que muy afectado en la parte interna, causado por los terremotos de gran magnitud",
+    "lat": 10.256973194899379,
+    "lng": -67.61950947667482,
+    "place": "la urbanización Andrés bello de Maracay",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-30T17:20:10.936000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaMCcHFRRQt/?utm_source=ig_web_button_share_sheet",
+        "text": "el edificio que muy afectado en la parte interna, causado por los terremotos de gran magnitud"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 104,
+    "name": "edificio albatroz la guaira",
+    "description": "se desplomo parte del edificio albatroz posibles personas dentro",
+    "lat": 10.598157062271806,
+    "lng": -67.00014337936378,
+    "place": "edificio albatroz maiquetia la guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:37:47.023000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBNcyKpYOs/",
+        "text": "se desplomo edificio albatroz maiquetia la guaira"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 95,
+    "name": "edificio argentum",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.5030867,
+    "lng": -66.8437352,
+    "place": "los palos grandes , edificio argentum 2da tranversal entre 1ra av y av andres bello , los palos grandes caracas",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T16:53:11.659000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaAnD8LkdsP/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 134,
+    "name": "edificio bancaribe los palos grandes",
+    "description": "edificio bancaribe altamira",
+    "lat": 10.502237170041345,
+    "lng": -66.8494588676543,
+    "place": "av. san juan bosco en altamira",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-26T02:53:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAa2IaRaC4/",
+        "text": "se derrumbo parte del edificio"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 126,
+    "name": "edificio Belmont chacao",
+    "description": "edificio Belmont chacao miranda",
+    "lat": 10.494027624364056,
+    "lng": -66.84820660368604,
+    "place": "edificio Belmont chacao",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T23:30:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBGhMRRSdf/",
+        "text": "edificio afectado estructuralmente"
+      }
+    ],
+    "images": [],
+    "floors": 10,
+    "floors_source": "osm"
+  },
+  {
+    "id": 211,
+    "name": "Edificio Capri",
+    "description": "su infraestructura fue afectada gravemente por los terremotos.",
+    "lat": 10.484871183653862,
+    "lng": -66.94188597482734,
+    "place": "la zona de Las Fuentes q",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-30T12:56:15.230000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaLoj-IB-NR/?utm_source=ig_web_button_share_sheet",
+        "text": "su infraestructura fue afectada gravemente por los terremotos."
+      }
+    ],
+    "images": [],
+    "floors": 5,
+    "floors_source": "osm"
+  },
+  {
+    "id": 106,
+    "name": "edificio coral bella",
+    "description": "edificio coral bella los corales caraballeda",
+    "lat": 10.618061108154095,
+    "lng": -66.85255516135534,
+    "place": "edificio coral bella Los Corales, en Caraballeda, Estado La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T19:07:19.264000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAvQ8QlCBJ/",
+        "text": "edificio se desplomo en su totalidad"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 213,
+    "name": "Edificio Coral Park",
+    "description": "se encuentran abocados a las inmensas labores de rescates de las personas que quedaron atrapadas bajo los escombros por el terremoto",
+    "lat": 10.609276113755046,
+    "lng": -66.85552720002283,
+    "place": "Urbanización Los Corales, en el Estado La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-30T16:32:25.571000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaL1UsgJV54/?utm_source=ig_web_button_share_sheet",
+        "text": "se encuentran abocados a las inmensas labores de rescates de las personas que quedaron atrapadas bajo los escombros por el terremoto"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 199,
+    "name": "Edificio Costa Brava- Los Corales.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.617735982395036,
+    "lng": -66.85745759747324,
+    "place": "Estado\tLa Guaira. Municipio\tVargas. Parroquia\tCaraballeda. Sector\tUrbanización Costa Brava (Edificio Costa Brava).",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-24T14:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDpP3ixOym/?utm_source=ig_web_button_share_sheet",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 60,
+    "name": "EDIFICIO CUAM",
+    "description": "Andrews Abreu\n@AndrewsAbreu\n#URGENTE Video del momento exacto cuando colapsó el edificio (El viejo) CUAM en la Av Universidad de Naguanagua.",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 165,
+    "name": "Edificio Cuatricentenario",
+    "description": "sufre daños estructurales a consecuencia del fuerte terremoto que afectó a gran parte del territorio nacional",
+    "lat": 10.18694987403804,
+    "lng": -67.46535389857615,
+    "place": "sector Barrancón, en la calle San Juan en Cagua",
+    "state": "Aragua",
+    "municipality": "Sucre",
+    "date": "2026-06-26T15:52:41.525000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA_cqFBVCN/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "sufre daños estructurales a consecuencia del fuerte terremoto que afectó a gran parte del territorio nacional"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 116,
+    "name": "Edificio de la Gran Misión Vivienda Venezuela, Rey de Reyes, Caracas.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.510116,
+    "lng": -66.9109292,
+    "place": "Edificio de la Gran Misión Vivienda Venezuela, Rey de Reyes, Caracas.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T21:24:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA76y-u_sY/?igsh=MTR6ZzR4NWw5a29vdw==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 50,
+    "name": "Edificio Don Luis",
+    "description": "Daños estructurales severos en vivienda residencial multifamiliar.",
+    "lat": 10.4995953919611,
+    "lng": -66.90665792878318,
+    "place": "F3XV+Q8X, Caracas 1011, Distrito Capital, Venezuela",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T09:01:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reels/DZ_NJseOoXT/",
+        "text": "Daños severos en infraestructura residencial multifamiliar."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 39,
+    "name": "EDIFICIO DON PEPE",
+    "description": "Un grave siniestro se registró en la urbanización Bello Campo, municipio Chacao, donde se produjo el desplome de una estructura interna del Edificio Don Pepe, afectando desde el piso 4 hasta el sótano 2.",
+    "lat": 10.49234689000646,
+    "lng": -66.8532617711644,
+    "place": "F4RW+XPW, Caracas 1060, Miranda, ANDRES BELLO, MUNICIPIO CHACAO",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T06:15:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_UupJiojR/",
+        "text": "Un grave siniestro se registró en la urbanización Bello Campo, municipio Chacao, donde se produjo el desplome de una estructura interna del Edificio Don Pepe, afectando desde el piso 4 hasta el sótano 2."
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "text"
+  },
+  {
+    "id": 164,
+    "name": "Edificio el jurel",
+    "description": "colapso total de edificio el jurel",
+    "lat": 10.61052712510045,
+    "lng": -67.0083827664482,
+    "place": "JX6R+5MV, Maiquetía 1162, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T15:43:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/AgenciaVNews/status/2070487857098019047?s=20",
+        "text": "colapso total del edificio coralcolapso el edificio El Jurel frente a Playa grande, Catia La Mar, La Guaira"
+      }
+    ],
+    "images": [],
+    "floors": 13,
+    "floors_source": "osm"
+  },
+  {
+    "id": 204,
+    "name": "Edificio El Molino",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido, caraballeda.",
+    "lat": 10.61277124116237,
+    "lng": -66.84417863244916,
+    "place": "El Molino, Caraballeda",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-27T03:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaEBsmEx7Iv/?utm_source=ig_web_button_share_sheet",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 144,
+    "name": "​Edificio Enimar",
+    "description": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.243936514736786,
+    "lng": -67.56450176239015,
+    "place": "El Edificio Enimar está ubicado en el sector San Jacinto del Municipio Girardot, en Maracay, Estado Aragua.",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T05:04:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAuC4rpUxM/",
+        "text": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 167,
+    "name": "Edificio Enymar",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido. Urbanización San Jacinto, Maracay, estado Aragua.",
+    "lat": 10.240695940027287,
+    "lng": -67.55880887401001,
+    "place": "Urbanización San Jacinto Edificio Enymar, Urbanización San Jacinto, Maracay, estado Aragua.",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T15:45:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDUS5gyCB1/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 109,
+    "name": "edificio la llovizna la guaira",
+    "description": "ubicado en la Urbanización Playa Grande, en la parroquia Catia La Mar del estado La Guaira",
+    "lat": 10.616088973570577,
+    "lng": -66.8576870972243,
+    "place": "El Edificio La Llovizna se encuentra ubicado en la Urbanización Playa Grande, en la parroquia Catia La Mar del estado La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T19:34:24.910000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAjmnpjuTS/",
+        "text": "el edificio se encuentra muy afectado posibles personas de la 3ra edad adentro"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 102,
+    "name": "edificio los delfines",
+    "description": "se desplomo parte del edificio los delfines en la guaira",
+    "lat": 10.61030229754813,
+    "lng": -67.02432937727329,
+    "place": "catia la mar la guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:28:44.973000+00:00",
+    "sources": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/primerahora/videos/los-residentes-de-los-delfines-en-el-municipio-de-vargas-en-venezuela-sufrieron-/1930376191010834/",
+        "text": "se desplomo parte del edificio los delfines"
+      }
+    ],
+    "images": [],
+    "floors": 20,
+    "floors_source": "osm"
+  },
+  {
+    "id": 190,
+    "name": "Edificio Los Mangos",
+    "description": "El edificio sufrió daños estructurales severos con fracturas profundas en paredes y muros, colapso de tanques elevados e inundaciones internas, aunque la edificación se mantiene en pie bajo riesgo de desplome.",
+    "lat": 10.24856317843234,
+    "lng": -67.60715377203488,
+    "place": "av constitución",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T20:55:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaDk0KRRe06/",
+        "text": "El edificio sufrió daños estructurales severos con fracturas profundas en paredes y muros, colapso de tanques elevados e inundaciones internas, aunque la edificación se mantiene en pie bajo riesgo de desplome."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 160,
+    "name": "EDIFICIO LOS MONJES",
+    "description": "NECESITAMOS AYUDA PARA EL EDIFICIO LOS MONJES CALLE 3 Urb PLAYA GRANDE catia la mar estado vargas - están tratando de sacar escombros DIFUNDAN!\n\nPOR FAVOR AYUNDENME A DIFUNDIR TENGO FAMILIA Y VECINOS DEBAJO DE LOS ESCOMBROS",
+    "lat": 10.608669453173745,
+    "lng": -67.0149638141139,
+    "place": "Residencias Los Monjes, Calle 3, Catia La Mar 1162, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T15:32:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaBnhsclCWX/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "NECESITAMOS AYUDA PARA EL EDIFICIO LOS MONJES CALLE 3 Urb PLAYA GRANDE catia la mar estado la guaira - están tratando de sacar escombros"
+      }
+    ],
+    "images": [],
+    "floors": 9,
+    "floors_source": "osm"
+  },
+  {
+    "id": 30,
+    "name": "EDIFICIO LOS PALOS GRANDES",
+    "description": "Edificios colapsados en la Urbanización Los Palos Grandes en",
+    "lat": 10.499282478538401,
+    "lng": -66.84382754600884,
+    "place": "F5X4+MF2, Trans. 1, Caracas 1060, Miranda",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:12:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_YnIfIBVV/?igsh=aDJncXAxZGQ1ZDVt&img_index=2",
+        "text": "Edificios colapsados en la Urbanización Los Palos Grandes en"
+      }
+    ],
+    "images": [],
+    "floors": 13,
+    "floors_source": "osm"
+  },
+  {
+    "id": 97,
+    "name": "Edificio Marama, San Bernardino, Caracas.",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.51232,
+    "lng": -66.90214,
+    "place": "Avenida Los Próceres / zona de San Bernardino, cerca de la frutería Juvenal. Edificio Marama,",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T17:06:31.412000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA4cP3tplj/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 187,
+    "name": "Edificio mar y cielo.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.610177725814793,
+    "lng": -66.84094735700918,
+    "place": "J565+3J7, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T20:40:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaD18PgskTc/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "colapso total de infraestructura"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 42,
+    "name": "Edificio Moisés de San Bernardino",
+    "description": "Edificio Moisés de San Bernardino, el segundo que colapsó casi en su totalidad y buscan a sobrevivientes.",
+    "lat": 10.514524643566839,
+    "lng": -66.90324441881563,
+    "place": "Caracas, Distrito Capital Venezuela",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T06:34:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_qIi5Omhs/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Edificio Moisés de San Bernardino, el segundo que colapsó casi en su totalidad y buscan a sobrevivientes."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 192,
+    "name": "EDIFICIO NAUTILUS (CATIA LA MAR, LA GUAIRA)",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.613124642547758,
+    "lng": -67.02185224472008,
+    "place": "Playa Grande / eje costero Catia La Mar Edificio Nautilus",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T11:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaEACkvkYqO/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 47,
+    "name": "EDIFICIO OASIS",
+    "description": "la avenida San Juan Bosco, en #Altamira, municipio #Chacao. La torre Bancaribe presenta daños estructurales tras el terremoto registrado el #24Jun en #Venezuela.\nHasta el momento, no se conoce una cifra exacta de la cantidad de estructuras afectadas por el movimiento telúrico.",
+    "lat": 10.493904485426384,
+    "lng": -66.87419631349317,
+    "place": "F4VG+F86, Av Francisco Solano Lopez, Caracas 1050, Distrito Capital",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:02:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_5UlrCqST/",
+        "text": "esgarradoras escenas en La Guaira tras los terremotos.\n\nEl Edificio Oasis, ubicado en Playa Grande, colapsó completamente luego de los fuertes sismos que sacudieron Venezuela."
+      }
+    ],
+    "images": [],
+    "floors": 2,
+    "floors_source": "osm"
+  },
+  {
+    "id": 110,
+    "name": "Edificio Oasis Beach",
+    "description": "Edificios completamente destruidos por la fuerza de los dos terremotos que golpearon durante casi un minuto la zona central de Venezuela.",
+    "lat": 10.611950651630734,
+    "lng": -67.00008037139705,
+    "place": "Playa Grande, en Catia La Mar,",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T19:30:52.802000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAbpa0s6DR/?utm_source=ig_web_button_share_sheet",
+        "text": "Edificios completamente destruidos por la fuerza de los dos terremotos que golpearon durante casi un minuto la zona central de Venezuela"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 114,
+    "name": "edificio obelisco chacao",
+    "description": "sufrió un colapso total de su estructura. tras sismo de 7.2",
+    "lat": 10.494330535969384,
+    "lng": -66.85743268259672,
+    "place": "urbanización Los Palos Grandes",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T20:57:59.451000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBBttmMWb4/?utm_source=ig_web_button_share_sheet",
+        "text": "sufrió un colapso total de su estructura. tras sismo de 7.2"
+      }
+    ],
+    "images": [],
+    "floors": 6,
+    "floors_source": "osm"
+  },
+  {
+    "id": 117,
+    "name": "edificio onuva los palos grandes",
+    "description": "edificio bastante comprometido estructuralmente",
+    "lat": 10.500063670023364,
+    "lng": -66.84441985951094,
+    "place": "los palos grandes chacao",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T21:37:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAI0gczmrd/",
+        "text": "edificio comprometido estructuralmente"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 19,
+    "name": "EDIFICIO PETUNIA",
+    "description": "se requiere linternas, palas, picos, grúas para remover escombros y tratar de rescatar sobreviviente, Continúan las labores de remoción de escombros en el edificio Petunia, una de las estructuras más afectadas tras los dos sismos continuos registrados la tarde del 24 de junio. Funcionarios del Viceministerio de Obras Públicas, Protección Civil, Guardia Nacional y autoridades de Chacao se encuentran desplegados resguardando el perímetro afectado.",
+    "lat": 10.499416220449476,
+    "lng": -66.84762212480818,
+    "place": "F5X2+5V5, Av. 1, Caracas 1083, Miranda, Conjunto Residencial Petunia",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_VZkuKQ5C/?igsh=dW8zeWN3b2NnbDd5",
+        "text": "EDIFICIO PETUNIA COLAPSO TOTAL FRENTE A XOCOLAT."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 191,
+    "name": "Edificio Playa T",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.610832282039194,
+    "lng": -67.01559706997084,
+    "place": "Frente al Mar Caribe, eje Playa Grande – Catia La Mar EDIFICIO PLAYA T",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T04:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDstwBRgWZ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 89,
+    "name": "edificio punta brisas la guaira",
+    "description": "edificio se desplomo en su totalidad",
+    "lat": 10.611550568864047,
+    "lng": -66.88536407486518,
+    "place": "macuto",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T15:58:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAhWAixdcw/",
+        "text": "se desplomo el edificio en su totalidad"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 205,
+    "name": "Edificio: Punta de Piedras Eje costero Macuto",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.611445861686716,
+    "lng": -66.88585096154185,
+    "place": "Eje costero Macuto – Las Quince Letras, frente al litoral del Mar Caribe",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-27T23:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaH9WKRMf6q/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 158,
+    "name": "Edificio Residencia oasis Beach",
+    "description": "Grandes grietas en la estructura de la residencia",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 196,
+    "name": "Edificio Rita",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido, en San Bernardino, continúan las labores de rescate y remoción de escombros.",
+    "lat": 10.51603870824074,
+    "lng": -66.9008926371365,
+    "place": "Distrito Capital, Municipio Municipio Libertador, Parroquia San Bernardino,  Sector Urbanización San Bernardino Lugar específico, Edificio Rita",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-24T14:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaHHQyBNBwQ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 151,
+    "name": "Edificio Ritamar Palace",
+    "description": "sufrieron daños estructurales,  Colapso de paredes y el edificio de 10 pisos, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.618757299289175,
+    "lng": -66.8591344356537,
+    "place": "La Guaira, Los Corales Ritamar Palace",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T07:35:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCcR-vAj8E/",
+        "text": "sufrieron daños estructurales,  Colapso de paredes y el edificio de 10 pisos, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": 10,
+    "floors_source": "text"
+  },
+  {
+    "id": 194,
+    "name": "Edificio Rosanday",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido, Caraballeda , zona costera",
+    "lat": 10.6121646,
+    "lng": -66.851939,
+    "place": "Avenida José María España Caraballeda / zona costera",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T21:30:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDgPxQRszf/?utm_source=ig_web_copy_link",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 125,
+    "name": "Edificio San Judas Tadeo - El Paraiso",
+    "description": "El edificio colapsó por completo debido a los recientes sismos en Caracas, dejando a varias personas atrapadas bajo los escombros. Actualmente, los cuerpos de seguridad y Protección Civil mantienen un operativo ininterrumpido de búsqueda y rescate en el sitio.",
+    "lat": 10.484022233958724,
+    "lng": -66.89702630161699,
+    "place": "El Paraiso",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T23:16:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaBstYVDJpC/?img_index=1",
+        "text": "El Edificio San Judas Tadeo en El Paraíso colapsó por completo debido a los recientes sismos en Caracas, dejando a varias personas atrapadas bajo los escombros. Actualmente, los cuerpos de seguridad y Protección Civil mantienen un operativo ininterrumpido de búsqueda y rescate en el sitio."
+      }
+    ],
+    "images": [],
+    "floors": 3,
+    "floors_source": "osm"
+  },
+  {
+    "id": 122,
+    "name": "edificio san miguel chacao",
+    "description": "edificio san miguel chacao",
+    "lat": 10.503531989526083,
+    "lng": -66.84829940820518,
+    "place": "chacao altamira",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T22:13:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA_ke4BqUu/",
+        "text": "edificio comprometido estructuralmente"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 27,
+    "name": "Edificio Santa Ritas",
+    "description": "Desplome de la estructura del edificio Santa Rita en San Bernardino, Caracas. Cuerpos de rescate, Bomberos de Caracas y Protección Civil ya se encuentran en el sitio ejecutando labores de búsqueda y salvamento entre los escombros.",
+    "lat": 10.51687512959715,
+    "lng": -66.90097286775932,
+    "place": "Edificio Santa Ritas, Av. Los anaucos, san Benardino.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T00:20:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_rRrYjrCU/",
+        "text": "Desplome de la estructura del edificio Santa Rita en San Bernardino, Caracas. Cuerpos de rescate, Bomberos de Caracas y Protección Civil ya se encuentran en el sitio ejecutando labores de búsqueda y salvamento entre los escombros."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCIeIZuFj0/",
+        "text": "25/06/26 se encuentraEdificio “Rita”, avenida Los Próceres de San Bernardino, Caracas. En las últimas horas han rescatadas varias personas con vida y otras que lamentablemente fallecieron, tras el colapso total de la estructura."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 198,
+    "name": "Edificio Santa Rosa",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.47167,
+    "lng": -66.54056,
+    "place": "Edificio Santa Rosa  Zamora GUATIRE",
+    "state": "Miranda",
+    "municipality": "Zamora",
+    "date": "2026-06-27T03:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDnSmqREUL/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 14,
+    "name": "Edificio Saturno",
+    "description": "edificio saturno, colapso total en chacao",
+    "lat": 10.488866193009828,
+    "lng": -66.87887679630147,
+    "place": "Saturno, Calle Sorbona, Caracas 1080, Distrito Capital",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_l78fMeEb/?igsh=MWZ3eWh4Mmk0eHBuaQ==",
+        "text": "Edificio Saturno ubicado en la zona de Los Palos Grandes en la Gran Caracas se desplomó tras el fuerte terremoto ocurrido la tarde de este miércoles. \nOrganismos de emergencia se encuentran en el lugar realizando labores de rescate."
+      }
+    ],
+    "images": [],
+    "floors": 10,
+    "floors_source": "osm"
+  },
+  {
+    "id": 127,
+    "name": "edificio sayonara chacao",
+    "description": "edificio sayonara chacao miranda",
+    "lat": 10.501707304708324,
+    "lng": -66.84576048175978,
+    "place": "chacao miranda",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T23:57:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_dzZihCUA/",
+        "text": "edificio desalojado con grave falla estructural"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 132,
+    "name": "edificio Sorocaima san bernardino",
+    "description": "edificio Sorocaima san bernardino av. panteon",
+    "lat": 10.513889384707518,
+    "lng": -66.90108419184507,
+    "place": "edificio Sorocaima san bernardino",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T02:33:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBLQF3sA60/",
+        "text": "falla estructural del edificio"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 133,
+    "name": "Edificio Tecoteca",
+    "description": "El edificio presenta fallas como daños estructurales en las grietas, ventanales caídos y pedazos de paredes destruidos.",
+    "lat": 10.4965183,
+    "lng": -66.8433694,
+    "place": "El Edificio Tecoteca está ubicado en la Avenida Francisco de Miranda, a la altura de Los Palos Grandes / Altamira, en el Municipio Chacao de Caracas",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-26T02:51:00+00:00",
+    "sources": [
+      {
+        "platform": "youtube",
+        "url": "https://elestimulo.com/terremoto-en-venezuela/2026-06-25/terremotos-venezuela/",
+        "text": "La zona de Los Palos Grandes estaba parcialmente cerrada, algunas calles iluminadas y otras en completa oscuridad. La mayoría de los vecinos esperaba el anuncio para poder subir a sus casas, mientras otros prefirieron sacar sillas plegables y cobijas para pasar la noche en la calle.\n\nel edificios presentaba daños estructurales: grietas, ventanales caídos y pedazos de paredes destruido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 181,
+    "name": "Edificio Turpial",
+    "description": "Reportan daños estructurales,-  Maracay Plaza, estado Aragua",
+    "lat": 10.235644968365548,
+    "lng": -67.59593893228407,
+    "place": "Maracay Plaza, estado Aragua",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T19:05:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_mWBIgvYd/",
+        "text": "Reportan daños estructurales"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 212,
+    "name": "Edificio Venezuela",
+    "description": "fue Destruido internamente por los terremotos.",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 118,
+    "name": "edificio vista hermosa los palos grandes",
+    "description": "edificio vista hermosa los palos grandes chacao",
+    "lat": 10.499635824370756,
+    "lng": -66.84541232485095,
+    "place": "los palos grandes chacao",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T21:49:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAI0gczmrd/",
+        "text": "falla estructural del edificio"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 217,
+    "name": "Edif. La Estrella",
+    "description": "edificio desplomado tras el terremoto ocurrido, siguen las excavaciones",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 46,
+    "name": "El antiguo edificio del CUAM",
+    "description": "El antiguo edificio del CUAM de Naguanagua, ubicado entre la avenida Universidad y cerca del Puente Bárbula, presentó daños en la estructura, pese a que se encontraba en un gran deterioro, la situación empeoro.",
+    "lat": 10.270262593810745,
+    "lng": -68.01913262303806,
+    "place": "7XCJ+48H, Av. 104 Carúpano, Naguanagua 2005, Carabobo, Venezuela",
+    "state": "Carabobo",
+    "municipality": "Valencia",
+    "date": "2026-06-25T06:50:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_lB_BtvQL/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "El antiguo edificio del CUAM de Naguanagua, ubicado entre la avenida Universidad y cerca del Puente Bárbula, presentó daños en la estructura, pese a que se encontraba en un gran deterioro, la situación empeoro."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 71,
+    "name": "EL JUNQUITO",
+    "description": "COLAPSO DE INFRAESTRUCTURA EN RESTAURANTE EN EL JUNQUITO",
+    "lat": 10.478552787957382,
+    "lng": -67.02374583251593,
+    "place": "Planta Baja, Km. 8 Carretera Principal Via, El Junquito, Caracas 1030, Distrito Capital",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T09:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_8soQOsky/?igsh=b3h2aGs5d3VxbDdp",
+        "text": "Un video grabado en medio del terremoto muestra la magnitud de la devastación en El Junquito, Caracas."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 15,
+    "name": "Escuela Naval de venezuela",
+    "description": "la Guaira terremoto, colapso de de la infraestructura académica.",
+    "lat": 10.59065413367218,
+    "lng": -67.050519417172,
+    "place": "HWRX+5QG, C. Alferez de Fragata Don Vicente Parrado, Catia La Mar 1162, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T00:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_ZEEXgiqr/?igsh=NDU4YXhnNTY1ZGVw",
+        "text": "Así quedó la Escuela Naval de Venezuela, en La Guaira, tras el fuerte terremoto que sacudió el país. las imagenes muestran los daños provocados por el sismo. Información en desarrollo."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 176,
+    "name": "Funcionarios desplegados en la avenida El Paraíso",
+    "description": "Autoridades mantienen las labores de búsqueda y rescate en la residencia Maramá de San Bernardino, un edificio de cinco pisos que colapsó tras el reciente sismo.\n\nFuncionarios desplegados en la avenida El Paraíso confirmaron que durante la jornada del jueves lograron rescatar a dos personas con vida y recuperaron los cuerpos de dos fallecidos, mientras intensifican los trabajos estructurales ante las señales que indican la existencia de más sobrevivientes bajo los escombros.",
+    "lat": 10.51364702789676,
+    "lng": -66.90331115997584,
+    "place": "G37W+9MJ, Avenida Caracas, Caracas 1011, Distrito Capital, Venezuela",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2025-06-26T18:12:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDfxaWSxbZ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Autoridades mantienen las labores de búsqueda y rescate en la residencia Maramá de San Bernardino, un edificio de cinco pisos que colapsó tras el reciente sismo.\n\nFuncionarios desplegados en la avenida El Paraíso confirmaron que durante la jornada del jueves lograron rescatar a dos personas con vida y recuperaron los cuerpos de dos fallecidos, mientras intensifican los trabajos estructurales ante las señales que indican la existencia de más sobrevivientes bajo los escombros."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 81,
+    "name": "guatire urbanizacion la hacienda",
+    "description": "edificio semi desplomado en la urbanizacion la hacienda",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 83,
+    "name": "guatire urbanizacion la hacienda",
+    "description": "edificio semi derrumbado posible personas dentro",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 68,
+    "name": "hospital de Charallave",
+    "description": "TRAS EL SISMO SE REPORTA AFECTACION EN EL INTERIOR DEL HOSPITAL DE CHARALLABE",
+    "lat": 10.240090448779089,
+    "lng": -66.86171809038281,
+    "place": "31 bZamora C. 8, Charallave 1210, Miranda",
+    "state": "Miranda",
+    "municipality": "Cristóbal Rojas",
+    "date": "2026-06-25T08:32:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": "TRAS EL SISMO SE REPORTAN AFECTACIÒN EN EL INTERIOR DEL HOSPITAL DE CHARALLAVE DESPRENDIEMIENTO EN LAS PAREDES"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 18,
+    "name": "HOSPITAL VICTORINO SANTAELLA",
+    "description": "Tras el fuerte sismo de este miércoles el Hospital Victorino Santaella Ruíz de Los Teques fue desalojado por las autoridades. El edificio presenta daños, al desprenderse el friso de las paredes internas y externas.",
+    "lat": 10.354076288892392,
+    "lng": -67.03625477484606,
+    "place": "Los Teques 1201, Miranda",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T04:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_gBFvyO83/?igsh=MXZhZTNldWk3dG5lNQ%3D%3D",
+        "text": "| VENEZUELA🇻🇪 | El hospital Victorino Santaella Ruíz de Los Teques, estado Miranda, sufrió daños estructurales tras los dos terremotos de 7.2 y 7.5 que se registraron este miércoles."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 108,
+    "name": "hotel Eduard’s",
+    "description": "el hotel Eduard’s sufrió un colapso total tras los fuertes sismos que afectaron la región.",
+    "lat": 10.605489213028186,
+    "lng": -66.90075269201277,
+    "place": "Avenida La Playa con calle 1, Urbanización Álamo, Parroquia Macuto, La Guaira,",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T19:21:43.433000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAoTB_jio2/?utm_source=ig_web_button_share_sheet",
+        "text": "el hotel Eduard’s sufrió un colapso total tras los fuertes sismos que afectaron la región."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 23,
+    "name": "Hotel Eduards",
+    "description": "El Hotel Eduards en La Guaira, Venezuela, se derrumbó a causa del sismo de magnitud 7,2 y una replica de 7,5.",
+    "lat": 10.605241392192864,
+    "lng": -66.90058103066505,
+    "place": "Avenida La Playa, Macuto 1163, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T02:20:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_MQjgt0Hy/?igsh=MWRueWd3em92YXpwaQ%3D%3D",
+        "text": "🇻🇪 ATENCIÓN | Reportes indican que el reconocido Hotel Eduard Suites de La Guaira se derrumbó por completo. \n\nFamiliares de los Beisbolista Gorkys Hernández y Eliézer Alfonzo entre otros, perdieron la vida. \n\nDel edificio no quedó nada."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 96,
+    "name": "hotel humboldt",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.5420261,
+    "lng": -66.8747052,
+    "place": "cima del avila ,waraira repano , hotel humboldt",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T17:02:10.573000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_m_uZtnIV/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 29,
+    "name": "Hotel La Gabarra del Caribe",
+    "description": "Terremoto en Los Corales: La Gabarra desapareció tras el fuerte sismo.",
+    "lat": 10.618840393551933,
+    "lng": -66.85241068157396,
+    "place": "Av. José María España, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T04:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_jMabDS5q/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Hotel la Gabarra devastación extrema tras terremoto de magnitud 7,2 replica 7,5 registrado."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 66,
+    "name": "Hotel Sunflower",
+    "description": "un fuerte movimiento telúrico sacudió al municipio Puerto Cabello, dejando a su paso severas afectaciones materiales en la infraestructura pública y privada.",
+    "lat": 10.472790891886245,
+    "lng": -68.04229050532489,
+    "place": "C.C, Puerto Cabello 2050, Carabobo Av la Paz, Sector, Puerto Cabello 2050, Carabobo, Venezuela",
+    "state": "Carabobo",
+    "municipality": "Puerto Cabello",
+    "date": "2026-06-25T08:07:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_gPFDsmUF/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se reportan agrietamientos severos y desprendimientos en el Edificio La Sultana (Casco Central), Residencias Sun and Sea (Cumboto Norte), el Hotel Sun Flowers y varias paredes perimetrales de la ciudad."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 56,
+    "name": "Iglesia de Tarmas",
+    "description": "derrumbe de la estructura en varios tramos",
+    "lat": 10.540292145726008,
+    "lng": -67.14055748812513,
+    "place": "Carayaca 1167, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": ""
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 37,
+    "name": "Iglesia Inmaculada Concepción",
+    "description": "Daños en la estructura de la iglesia de Cuyagua, municipio Costa de Oro, tras el fuerte sismo de magnitud 7,2 - 7,5",
+    "lat": 10.47613128963429,
+    "lng": -67.70127025132103,
+    "place": "F7GX+CFP, Cuyagua 2112, Aragua, Venezuela",
+    "state": "Aragua",
+    "municipality": "Ocumare de la Costa de Oro",
+    "date": "2026-06-25T08:02:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_IZRbh5n1/?igsh=MXFramQ2c3Fjamx6Yg%3D%3D",
+        "text": "daños estructurales en la Iglesia Inmaculada Concepciòn"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 57,
+    "name": "Iglesia San Sebastián de Maiquetia",
+    "description": "El Arzobispo de Caracas, Monseñor Raúl Biord, ofrece un reporte a esta hora tras evaluar los daños causados por la emergencia sísmica en los espacios de fe de la ciudad capital.\n\n📋 La autoridad eclesiástica ha realizado un recorrido por las iglesias de la ciudad para constatar de primera mano el estado de las infraestructuras parroquiales y templos históricos.\n\n💔 Tras la inspección, lamentó informar que muchos recintos religiosos han sufrido graves afectaciones estructurales en sus fachadas, campanarios e interiores, por lo que se restringirá el acceso de forma preventiva para evitar riesgos mayores.\n\n🙏 Ante este difícil momento que atraviesa la nación, Monseñor Biord llamó a toda la ciudadanía a mantenerse en oración, pidiendo por la protección de las familias venezolanas, el descanso de los fallecidos y la fortaleza de los cuerpos de rescate que se mantienen desplegados.\n\nLas parroquias activarán espacios seguros para recibir apoyo logístico en las próximas horas. Siga atento a nuestras plataformas digitales para más detalles.",
+    "lat": 10.594539729691364,
+    "lng": -66.9524775018499,
+    "place": "H2VX+P29, Maiquetía 1161, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:34:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_05sZO3mA/?igsh=MW94dHYxZDFxMWJyeg%3D%3D",
+        "text": "ACTUALIZACIÓN | Balance de la Iglesia Católica en Caracas\n\nEl Arzobispo de Caracas, Monseñor Raúl Biord, ofrece un reporte a esta hora tras evaluar los daños causados por la emergencia sísmica en los espacios de fe de la ciudad capital.\n\n📋 La autoridad eclesiástica ha realizado un recorrido por las iglesias de la ciudad para constatar de primera mano el estado de las infraestructuras parroquiales y templos históricos.\n\n💔 Tras la inspección, lamentó informar que muchos recintos religiosos han sufrido graves afectaciones estructurales en sus fachadas, campanarios e interiores, por lo que se restringirá el acceso de forma preventiva para evitar riesgos mayores.\n\n🙏 Ante este difícil momento que atraviesa la nación, Monseñor Biord llamó a toda la ciudadanía a mantenerse en oración, pidiendo por la protección de las familias venezolanas, el descanso de los fallecidos y la fortaleza de los cuerpos de rescate que se mantienen desplegados.\n\nLas parroquias activarán espacios seguros para recibir apoyo logístico en las próximas horas. Siga atento a nuestras plataformas digitales para más detalles."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCAXIIx0TN/?hl=es",
+        "text": "Iglesia San Sebastián de Maiquetia,El monseñor Raúl Biord reporto que la Iglesia San Sebastián de Maiquetia sufrió graves daños y se cayó parcialmente su fach"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 98,
+    "name": "La Atlántida, Catia La Mar.",
+    "description": "Hubo una fiesta infantil y hay personas atrapadas bajo escombros y casas caídas",
+    "lat": 10.6073204,
+    "lng": -67.0335258,
+    "place": "La Atlántida, Catia La Mar.   Avenida Atlántida, al final de la calle 2, referencia Bomberos, Catia La Mar",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T17:54:22.556000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaA71CyOfk9/?utm_source=ig_web_button_share_sheet",
+        "text": "Hubo una fiesta infantil y hay personas atrapadas bajo escombros y casas caídas"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 33,
+    "name": "LA CALLE MUNICIPIO CARABOBO",
+    "description": "dejando a su paso severas afectaciones materiales en la infraestructura pública y privada. Entendemos el temor, la angustia y la profunda zozobra que viven las familias carabobeñas en estas horas críticas; desde nuestra mesa de redacción, nuestro compromiso es brindarles información verificada para que puedan tomar decisiones seguras.",
+    "lat": 10.473460565043734,
+    "lng": -68.03027159020996,
+    "place": "FXF9+9W6, Puerto Cabello 2050, Carabobo",
+    "state": "Carabobo",
+    "municipality": "Puerto Cabello",
+    "date": "2026-06-25T05:44:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_gPFDsmUF/?igsh=MXI5aGpjMXVrcmNkbQ%3D%3D",
+        "text": "Este 24 de junio, a las 6:04 p. m., un fuerte movimiento telúrico sacudió al municipio Puerto Cabello, dejando a su paso severas afectaciones materiales en la infraestructura pública y privada. Entendemos el temor, la angustia y la profunda zozobra que viven las familias carabobeñas en estas horas críticas; desde nuestra mesa de redacción, nuestro compromiso es brindarles información verificada para que puedan tomar decisiones seguras.\n\n​🏢 Colapsos y daños estructurales: Se reportan agrietamientos severos y desprendimientos en el Edificio La Sultana (Casco Central), Residencias Sun and Sea (Cumboto Norte), el Hotel Sun Flowers y varias paredes perimetrales de la ciudad.\n\n​🏥 Evacuación en el Hospital Adolfo Prince Lara: Ante el colapso parcial de las instalaciones y desprendimientos internos, personal médico y rescatistas ejecutaron el desalojo de emergencia. Los pacientes están siendo atendidos al aire libre para garantizar su seguridad frente a las réplicas.\n\n​🌊 Alerta de tsunami descartada: El retiro temporal del mar en Patanemo y Gañango provocó que los ciudadanos evacuaran a pie hacia zonas montañosas y las alturas del castillo Fortín Solano. Las autoridades de gestión de riesgo ya han descartado formalmente la alerta de tsunami y llaman a la calma.\n\n​👮 Despliegue oficial: El alcalde Juan Carlos Betancourt, Bomberos Municipales y Protección Civil se encuentran en las calles asegurando las zonas de mayor riesgo y levantando el censo de familias afectadas.\n\n​🌐 Actualización de Medios Internacionales\n\n​Tras nuestra revisión del panorama en agencias de noticias internacionales y centros de monitoreo, esta es la última hora a nivel global:\n\n​El Servicio Geológico de los Estados Unidos (USGS) elevó la magnitud y confirmó que la región sufrió dos potentes sismos de magnitud 7.2 y 7.5.\n\n​El impacto trascendió las fronteras, percibiéndose con fuerza en Colombia, Puerto Rico y las islas ABC del Caribe (Aruba, Bonaire y Curazao). El Centro de Alerta"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 20,
+    "name": "La Casona II",
+    "description": "Terremoto causó destrozos en el centro comercial La Casona II, parte de las escaleras que conectan al tercer piso se desplomaron.",
+    "lat": 10.369930618501359,
+    "lng": -66.98318077272233,
+    "place": "9298+VPP, Carr. Panamericana, San Antonio de Los Altos 1204, Miranda",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:18:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_QkA9sDUo/?igsh=MTB0a2cwZGN1a2V1OA%3D%3D",
+        "text": "Terremoto causó destrozos en el centro comercial La Casona II, parte de las escaleras que conectan al tercer piso se desplomaron."
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "osm"
+  },
+  {
+    "id": 183,
+    "name": "La Mar Suites",
+    "description": "colapso total del conjunto residencial La Mar Suites en Tucacas, el cual se desplomó y aplastó varios vehículos, Tucacas, Falcon.",
+    "lat": 10.766399449086778,
+    "lng": -68.32462650368765,
+    "place": "Tucacas",
+    "state": "Falcón",
+    "municipality": "Silva",
+    "date": "2026-06-26T19:29:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_UcrgQNsf/",
+        "text": "colapso total del conjunto residencial La Mar Suites en Tucacas, el cual se desplomó y aplastó varios vehículos."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaJw0ZjDzXI/",
+        "text": "Tras 90 horas de trabajo arduo e ininterrumpido, el gobernador del estado Falcón, Víctor Clark Boscán, ofreció este domingo 28 de junio el balance definitivo sobre el trágico colapso de la torre del conjunto residencial «Lamar Suites», ubicado en Tucacas, anunciando oficialmente la culminación del ciclo de búsqueda y rescate con un saldo de 12 personas fallecidas.\n\nCon profundo dolor, el mandatario regional confirmó la recuperación de los cuerpos sin vida de los ciudadanos Algemiro Antolone, de 56 años; Guadalupe Pescales, de 69; Alejandro Ure, de 30; Carla Bello, de 60; Ángel Carmona, de 40; Raúl Enrique Díaz León, de 28; Enrique José Díaz Velásquez, de 68; Jonathan José Zambrano Karpi, de 35; Luis Fernando Olivero, de 38; Yelvismer, de 35; la menor Fernanda Olivero, de 6 años, y Natalia Fernández, de 34 años de edad.\n\n«Todo el esfuerzo realizado en este lugar desde la hora cero se hizo con esperanza, no obstante, hoy tenemos esta situación dolorosa en la que acompañamos a los familiares», enfatizó la máxima autoridad de la entidad falconiana.\n\nEl mandatario regional sostuvo que un total de 1.500 voluntarios y 642 personas provenientes de 27 instituciones públicas y privadas constituyeron el pie de fuerza de esta gran misión humanitaria. En tal sentido, hizo un reconocimiento especial a la labor de los organismos de seguridad, la Fuerza Armada Nacional, diversas fundaciones, la Cruz Roja, Protección Civil e Inparques, entre otros cuerpos de prevención.\n\nPor otra parte, el Gobernador informó que el Ejecutivo regional continuará brindando atención integral a las 252 personas de la parroquia Boca de Aroa que sufrieron afectaciones directas en 87 viviendas.\n\nCon información de Prensa Gobernación de Falcón"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 22,
+    "name": "Las Arepas de Margaret/Sede II",
+    "description": "COLAPSO DE INFRAESTRUCTURA EN EL EDIFICIO LAS AREPAS DE MARGARET",
+    "lat": 10.60189950519263,
+    "lng": -67.0318413,
+    "place": "Av. El Ejército, La Guaira 1162, La Guaira",
+    "state": null,
+    "municipality": null,
+    "date": "2026-06-25T00:17:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/eslaguairaenfotos/?hl=es",
+        "text": "COLAPSO DE LA INFRAESTRUCTURA DE LA AREPERA MARGARET."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 201,
+    "name": "las Lomas de Urdaneta Bloque 2",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.51229,
+    "lng": -66.95482,
+    "place": "Bloque 2 de las Lomas de Urdaneta CARACAS SUCRE",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T18:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaB26apBnb2/?utm_source=ig_web_button_share_sheet",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 82,
+    "name": "las salias edificio pinedo",
+    "description": "edificio desplomado",
+    "lat": 10.387882573102354,
+    "lng": -66.95971114108215,
+    "place": "san antonio de los altos, edificio las salias edificio pinedo",
+    "state": "Miranda",
+    "municipality": "Sucre",
+    "date": "2026-06-25T14:48:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_KFseBCWE/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "edificio desplomado posibles habitantes en situacion de peligros"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 58,
+    "name": "Los Corales",
+    "description": "SISMO EN VENEZUELA * El estado La Guaira fue la entidad más golpeada por el terremoto.\n\nSectores cómo Playa Grande, Tanaguarenas, Los Corales y Catia La Mar se vieron afectados.",
+    "lat": 10.615705,
+    "lng": -66.857356,
+    "place": "Los Corales Caraballeda 1165, La Guaira Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:30:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_xB-AOXw8/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "SISMO EN VENEZUELA * El estado La Guaira fue la entidad más golpeada por el terremoto.\n\nSectores cómo Playa Grande, Tanaguarenas, Los Corales y Catia La Mar se vieron afectados."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 90,
+    "name": "Magallanes de Catia, Barrio Isaías Medina Angarita",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.5101749,
+    "lng": -66.9640731,
+    "place": "Barrio Isaias PARROQUIA SUCRE , casa derrumbada",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-25T15:54:43.194000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_VeHIOYSc/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido , CASA DERRUMBADA"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 112,
+    "name": "Misión vivienda los cocos",
+    "description": "Ciudadanos buscan a sus familiares entre los escombros, después del gran sismo y derrumbes,  UBIC:\nedificio coral bella Los Corales, en Caraballeda, Estado La Guaira",
+    "lat": 10.625715150957017,
+    "lng": -67.03988626192097,
+    "place": "Los Cocos,  Misión Vivienda Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T20:22:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBOH3NyyCt/?utm_source=ig_web_button_share_sheet",
+        "text": "Ciudadanos buscan a sus familiares entre los escombros, después del gran sismo y derrumbes"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 159,
+    "name": "Misión Vivienda, sector Caraballeda–Tanaguarena",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.61216,
+    "lng": -66.85192,
+    "place": "sector Caraballeda Misión Vivienda,–Tanaguarena",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T14:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://t.me/davidglockvzla/18249",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 150,
+    "name": "NAIGUATA, LA GUAIRA, SAN FELIPE Y MORON",
+    "description": "Nuevo Sismo 4,4\nViernes 26 de junio \n12:45 am DURANTE EL RESCATE POR PARTE DEL GRUPO DE PROTECCION CIVIL Y GUARDIAS NACIONALES, REPLICA",
+    "lat": 10.615190767157907,
+    "lng": -66.74747762018372,
+    "place": "Naiguata, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T07:12:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaCYpLKubDK/",
+        "text": "DURANTE LA JORNADA DE RESCATES EN LA GUAIRA SE PRESENTO UN NUEVO SISMO EN NAIGUATA Nuevo Sismo 4,4\nViernes 26 de junio \n12:45 am"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 149,
+    "name": "NAIGUATA, LA GUAIRA, SAN FELIPE Y MORON",
+    "description": "Nuevo Sismo 4,4\nViernes 26 de junio \n12:45 am DURANTE EL RESCATE POR PARTE DEL GRUPO DE PROTECCION CIVIL Y GUARDIAS NACIONALES, REPLICA",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 156,
+    "name": "operativo de limpieza y rescate",
+    "description": "En medio de la angustia y el cansancio físico, recuerden que cada escombro que remueven es una oportunidad de vida y un acto de amor puro por nuestro prójimo. Le pido a Dios que les otorgue una resistencia sobrehumana, templanza en el corazón y una guía divina para encontrar a quienes los necesitan.",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 52,
+    "name": "Opppe 35 de la Guaira",
+    "description": "Opppe 35 de la Guaira están Reportando que no les han atendido. El edif se hundió 3 pisos para abajo.",
+    "lat": 10.610954934047953,
+    "lng": -66.8299890476508,
+    "place": "J56C+82P, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:11:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": "Opppe 35 de la Guaira están Reportando que no les han atendido. El edif se hundió 3 pisos para abajo"
+      }
+    ],
+    "images": [],
+    "floors": 3,
+    "floors_source": "text"
+  },
+  {
+    "id": 147,
+    "name": "PARROQUIA SAN BERNANDINO",
+    "description": "Los organismos de socorro y vecinos han logrado rescatar con vida a más de 25 personas atrapadas en la parroquia San Bernardino (Caracas), tras el colapso de edificios ocasionado por los fuertes sismos que sacudieron el país. Las labores de búsqueda continúan de manera ininterrumpida.",
+    "lat": 10.512512519379253,
+    "lng": -66.90041200329377,
+    "place": "RESIDENCIAS RITA, Parroquia San Bernardino Caracas, Distrito Capital Venezuela San Bernardino es un barrio residencial del municipio venezolano Libertador de Caracas, y una de sus 32 parroquias.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T06:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCTncGNSHW/",
+        "text": "Rescate de ciudadano tras sismo en San Bernardino.\n\nEl esfuerzo de cada persona que remueve un escombro es una lección de valentía, vocación y humanidad que jamás olvidaremos."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCR0W5jwjS/",
+        "text": "Bomberos de Caracas y «Tsunami» el perro rescatista rastrean sobrevivientes en San Bernardino\n\nTras los fuertes sismos registrados el día de ayer, los funcionarios del cuerpo de Bomberos de Caracas contaron con la asistencia del perro de rescate, Tsunami, desplegado para rastrear a posibles sobrevivientes atrapados bajo las estructuras colapsadas de las Residencias Rita, un edificio de ocho pisos situado en la urbanización San Bernardino, en Caracas.\n\nDescubre mucho más en nuestra web! Enlace directo en la bio"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 17,
+    "name": "PEQUIVEN EN CARABOBO",
+    "description": "saladprensa\n \n47 min\nPEQUIVEN EN CARABOBO\n\nPlanta de Pequiven en el estado Carabobo recibió daños serios por el temblor.  Se desconocen datos de los trabajadores de la industria petroquimica. Hasta los momentos los organismos de seguridad y rescate están en plenas labores de asistencia y apoyo a los lesionados y atrapados en estructuras residenciales en Caracas y Carabobo.",
+    "lat": 10.161461261551494,
+    "lng": -67.95917396135518,
+    "place": "PEQUIVEN EN CARABOBO",
+    "state": "Carabobo",
+    "municipality": "Valencia",
+    "date": "2026-06-25T02:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_Y5YDOx5T/?igsh=cW5sbDl2cDVkdHRv",
+        "text": "PEQUIVEN EN CARABOBO\n\nPlanta de Pequiven en el estado Carabobo recibió daños serios por el temblor.  Se desconocen datos de los trabajadores de la industria petroquimica. Hasta los momentos los organismos de seguridad y rescate están en plenas labores de asistencia y apoyo a los lesionados y atrapados en estructuras residenciales en Caracas y Carabobo. Imágenes cortesía."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 44,
+    "name": "Pinto Salinas",
+    "description": "Los equipos de rescate trabajan a contrarreloj en Pinto Salinas tras el derrumbe de una estructura de 4 pisos, donde se escuchan gritos entre los escombros y se reportan extraoficialmente 4 fallecidos",
+    "lat": 10.507868444479909,
+    "lng": -66.88949152066965,
+    "place": "Caracas 1050, Distrito Capital Venezuela",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T06:42:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_rKEth9km/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Los equipos de rescate trabajan a contrarreloj en Pinto Salinas tras el derrumbe de una estructura de 4 pisos, donde se escuchan gritos entre los escombros y se reportan extraoficialmente 4 fallecidos."
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "text"
+  },
+  {
+    "id": 43,
+    "name": "PLAYA GRANDE, LA GUAIRA",
+    "description": "Comienzan a difundirse nuevos videos grabados en Playa Grande, estado La Guaira, donde se observa la magnitud de la emergencia tras el fuerte terremoto que sacudió el centro-norte del país.\n\n📹 Las imágenes muestran distintos puntos del sector mientras continúan las labores de búsqueda, rescate y evaluación por parte de los organismos de emergencia.",
+    "lat": 10.610157981542633,
+    "lng": -67.01459730084531,
+    "place": "Maiquetía 1162, La Guaira Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T06:39:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_xaeugmjP/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Comienzan a difundirse nuevos videos grabados en Playa Grande, estado La Guaira, donde se observa la magnitud de la emergencia tras el fuerte terremoto que sacudió el centro-norte del país.\n\n📹 Las imágenes muestran distintos puntos del sector mientras continúan las labores de búsqueda, rescate y evaluación por parte de los organismos de emergencia."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 174,
+    "name": "Plaza Venezuela / zona central de Caracas",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.4969243,
+    "lng": -66.88573571393,
+    "place": "Plaza Venezuela / zona central de Caracas, el recreo",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T04:45:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaCASuXMbBR/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 154,
+    "name": "POLIDEPORTIVO JOSÉ MARÍA",
+    "description": "POLIDEPORTIVO JOSÉ MARÍA \nVARGAS SUFRIÓ DAÑOS MINIMOS EN LAS PAREDES DE LA ESTRUCTURA.",
+    "lat": 10.600442031019295,
+    "lng": -66.97057317794388,
+    "place": "POLIDEPORTIVO JOSÉ MARÍA  VARGAS, Maiquetía 1161, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T10:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaC0zIXu15m/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ%3D%3D",
+        "text": "POLIDEPORTIVO JOSÉ MARÍA \nVARGAS SUFRIÓ DAÑOS,EN LAS ESTRUCTURA."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 55,
+    "name": "Pueblo de Carayaca",
+    "description": "Derrumbes tras el sismo ocurrido varias estructuras se fueron abajo",
+    "lat": 10.531579277206042,
+    "lng": -67.11840831538805,
+    "place": "Carayaca 1167, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:15:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "text": "varias estructuras se fueron abajo tras sismo"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 73,
+    "name": "PUENTE SANTA ROSA",
+    "description": "Buenas noches el director de mi transporte reporta un leve daño en la juntas del puente de santa rosa, el que está operativo, pero indica que no es un daño grave estructural",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 74,
+    "name": "REPORTE DE PEQUIVEN",
+    "description": "GHERFG",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 170,
+    "name": "Residencia Bello Horizonte",
+    "description": "La Residencia Belo Horizonte de Catia La Mar, en La Guaira quedó totalmente destruida. de Catia La Mar",
+    "lat": 10.609677830132835,
+    "lng": -67.02683025777192,
+    "place": "Catia La Mar 1162, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T16:27:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/zuricht94/status/2070503954421620778?s=20",
+        "text": "La Residencia Belo Horizonte de Catia La Mar, en La Guaira quedó totalmente destruida."
+      }
+    ],
+    "images": [],
+    "floors": 17,
+    "floors_source": "osm"
+  },
+  {
+    "id": 101,
+    "name": "residencia botanico tanaguarena",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.6119294,
+    "lng": -66.8267556,
+    "place": "jardin botanico residencias botanico",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:17:25.198000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAH4QWynXG/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 92,
+    "name": "residencial terraza del este , guarenas",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.5006,
+    "lng": -66.8321,
+    "place": "Parque residencial terrazas del este , avenida principal terrazas del este",
+    "state": "Miranda",
+    "municipality": "Plaza",
+    "date": "2026-06-25T18:20:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_i8mkhL1K/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 171,
+    "name": "Residencia Mariposa",
+    "description": "El edificio se encuentra afectado y hubo desprendimiento de paredes en los primeros cuatro pisos. Los vecinos informan que esperan revisión para determinar si sigue siendo habitable. - Av Sucre Dos Caminos Edo. Miranda.",
+    "lat": 10.502396715437474,
+    "lng": -66.83252892056842,
+    "place": "Av Sucre Dos Caminos Edo. Miranda",
+    "state": "Miranda",
+    "municipality": "Sucre",
+    "date": "2026-06-26T16:43:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaDk7N6gcmh/",
+        "text": "El edificio se encuentra afectado y hubo desprendimiento de paredes en los primeros cuatro pisos. Los vecinos informan que esperan revisión para determinar si sigue siendo habitable."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 208,
+    "name": "Residencias Abitare",
+    "description": "ras evaluar la integridad estructural y las bases del inmueble, los expertos determinaron que la edificación es totalmente recuperable. Según lo informado, la estructura principal se encuentra en óptimas condiciones, concentrándose los daños únicamente en elementos de mampostería. En los próximos días, el gremio presentará un informe técnico con las recomendaciones precisas para las reparaciones necesarias.",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 195,
+    "name": "Residencias Agua Azul",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.60444,
+    "lng": -67.02972,
+    "place": "Catia La Mar / Playa Grande RESIDENCIA AGUA AZUL",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T20:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaEAPGdgu-o/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 177,
+    "name": "Residencias Aguja Azul",
+    "description": "Colapso total de Residencias Aguja Azul",
+    "lat": 10.62249411878442,
+    "lng": -66.74205033270164,
+    "place": "Frente a las canchas deportivas, Residencias Aguja Azul, C. Coromoto, Naiguatá 1166, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T17:43:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/Libertaria17082/status/2070298426596884679?s=20",
+        "text": "colapso total de la torre"
+      }
+    ],
+    "images": [],
+    "floors": 16,
+    "floors_source": "osm"
+  },
+  {
+    "id": 207,
+    "name": "Residencias Belo Horizonte",
+    "description": "Se realiza una operación de auxilio tras el colapso de las Residencias Belo Horizonte, ubicadas en Catia la Mar, producto de los eventos sísmicos recientes.",
+    "lat": 10.609809970786388,
+    "lng": -67.02703673065116,
+    "place": "Residencias Belo Horizonte, Maiquetía 1162, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-28T18:48:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaIzH4RuoDU/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ%3D%3D",
+        "text": "Un ciudadano realizó una operación de auxilio tras el colapso de las Residencias Belo Horizonte, ubicadas en Catia la Mar, producto de los eventos sísmicos recientes."
+      }
+    ],
+    "images": [],
+    "floors": 17,
+    "floors_source": "osm"
+  },
+  {
+    "id": 140,
+    "name": "Residencias Breogan",
+    "description": "edifico colapsado",
+    "lat": 10.611209106511662,
+    "lng": -66.85565475767136,
+    "place": "J46V+9P5, Avenida 16-A, Caraballeda 1165, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T02:50:00+00:00",
+    "sources": [
+      {
+        "platform": "otro",
+        "url": "https://www.diariolasamericas.com/america-latina/mas-160-muertos-y-miles-desaparecidos-es-el-saldo-el-saldo-preliminar-terremotos-venezuela-n5397769",
+        "text": "Más de 188 muertos y 1.520 heridos, el saldo preliminar tras terremotos\nDesde el estado La Guaira piden ayuda. Decenas de edificios colapsados, donde hay personas a[un con vidaCARACAS.- El número de fallecidos en Venezuela a causa de los dos terremotos del miércoles se elevó a 188 y el de heridos a 1.520, mientras que al menos 346 construcciones, entre edificios, hospitales y centros comerciales, resultaron afectadas, informó este jueves el presidente de la Asamblea Nacional (AN, Parlamento), Jorge Rodríguez."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 88,
+    "name": "RESIDENCIAS BUENA VISTA GUATIRE",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 141,
+    "name": "Residencias Caribe",
+    "description": "MÚLTIPLES EDIFICIOS SE\nDESPLOMARON EN CARIBE\nY LOS CORALES. AVANZAN \nTRABAJOS DE RESCATES. Lista LISTA DE EDIFICIOS Y RESIDENCIAS O AFECTADOS PARCIALMENTE EN LA GUAIRA:\nResidencias Mariola y Maribel\nResidencias Gran Terraza\nResidencias Breogan\nResidencias Caribe\nResidencias La Trinidad\nEdificio Dist. Rosanday\nEdificio Costa Brava\nResidencia Llona\nMiramar\nRocapark\nResidencias La Mar Suites\nEdificio Oasis Beach\nEdificio Parque Caraballeda\nResidencias Coral Beach\nEdificio Albatros\nHotel Eduard’s\nResidencia Los Corales\nRita Sol Palace\nEdificio Punta Brisas\nResidencias Ritasol Palace\nEdificio La Gabarra\nPez Vela\nResidencias Vistamar\nMariana grande\nMariana mar\nSUMA\nMisión vivienda los cocos\nMariola (macuto)\nBloque 3 de La Páez\nCaribe (los cocos)\nTahiti (caraballeda)\nHotel edwars\nLos delfines\nBello Horizonte (playa grande)\nLa llovizna (playa grande)\nCosta brava\nUrbHugo chavez\nCoral Bella\nRes Club de playa (macuto)\nLas palmas\nCosta brava\nBucanero\nLa estrella\nAlbatroz\nCanes (catia la mar)",
+    "lat": 10.61864476,
+    "lng": -66.84986102,
+    "place": "J576+X8J, C. La Playa, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T23:52:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBNcyKpYOs/",
+        "text": "MÚLTIPLES EDIFICIOS SE\nDESPLOMARON EN CARIBE\nY LOS CORALES. AVANZAN \nTRABAJOS DE RESCATES. Lista LISTA DE EDIFICIOS Y RESIDENCIAS O AFECTADOS PARCIALMENTE EN LA GUAIRA:\nResidencias Mariola y Maribel\nResidencias Gran Terraza\nResidencias Breogan\nResidencias Caribe\nResidencias La Trinidad\nEdificio Dist. Rosanday\nEdificio Costa Brava\nResidencia Llona\nMiramar\nRocapark\nResidencias La Mar Suites\nEdificio Oasis Beach\nEdificio Parque Caraballeda\nResidencias Coral Beach\nEdificio Albatros\nHotel Eduard’s\nResidencia Los Corales\nRita Sol Palace\nEdificio Punta Brisas\nResidencias Ritasol Palace\nEdificio La Gabarra\nPez Vela\nResidencias Vistamar\nMariana grande\nMariana mar\nSUMA\nMisión vivienda los cocos\nMariola (macuto)\nBloque 3 de La Páez\nCaribe (los cocos)\nTahiti (caraballeda)\nHotel edwars\nLos delfines\nBello Horizonte (playa grande)\nLa llovizna (playa grande)\nCosta brava\nUrbHugo chavez\nCoral Bella\nRes Club de playa (macuto)\nLas palmas\nCosta brava\nBucanero\nLa estrella\nAlbatroz\nCanes (catia la mar)"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 206,
+    "name": "RESIDENCIAS CUMANAGOTO",
+    "description": "Las operaciones de rescate y remoción de escombros continúan en Playa Grande, uno de los sectores más impactados por el evento sísmico ocurrido el pasado 24 de junio. Los cuerpos de Yanina Maranella, esposa del futbolista argentino Lucas Trejo, y de sus dos hijos, Aarón y Ainhoa Trejo, fueron localizados entre los escombros del edificio Residencias Cumanaguto, en el sector Playa Grande del estado La Guaira, tras casi 72 horas de labores de búsqueda.",
+    "lat": 10.611347214405882,
+    "lng": -67.01031250371092,
+    "place": "Maiquetía 1162, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-07-26T10:48:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBezKljmzT/",
+        "text": "SE MANTIENE EL DESPLIEGUE PARA MANTENER EL RESCATE DEL PERSONAL"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/vpitv/videos/as%C3%AD-qued%C3%B3-el-edificio-cumanagoto-en-playa-grande-la-guaira-tras-el-terremoto-reg/1737238957701871/",
+        "text": "ASI QUEDO DESVASTADO EL EDIFICIO CUMANAGOTO."
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaEpU85FhJn/?img_index=4",
+        "text": "El grupo USAR El Salvador llegó a las Residencias Cumanagoto, en Playa Grande, La Guaira, para buscar y rescatar a víctimas de los terremotos.\n\nEl contingente salvadoreño trabaja en diferentes edificaciones, buscando llevar buenas noticias a venezolanos que buscan a sus familiares desaparecidos"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 103,
+    "name": "Residencias El Molino, Caribe, La Guaira.",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.6150692,
+    "lng": -66.8387238,
+    "place": "Residencias El Molino, sector Caribe",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:35:07.513000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://vt.tiktok.com/ZSC2V45h7/",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 152,
+    "name": "Residencias El Palmar",
+    "description": "Sufrieron daños estructurales en su totalidad, Colapso de paredes escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.614377085262051,
+    "lng": -66.86112527298093,
+    "place": "Local 2, Edif. Los Tres Hermanos, PB, Urb Av. José María España, Caraballeda 1165, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T08:25:15.070000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCUVJ4uTsW/",
+        "text": "Edificio de 17 pisos con 14 apartamentos por cada piso está totalmente derrumbado, las labores de rescates son de gran magnitud, sin embargo solo 6 personas hasta la hora han podido ser sacadas con vida."
+      }
+    ],
+    "images": [],
+    "floors": 17,
+    "floors_source": "text"
+  },
+  {
+    "id": 182,
+    "name": "Residencias El Trébol",
+    "description": "resultó con importantes afectaciones en su estructura tras las recientes contingencias.",
+    "lat": 10.253602326164296,
+    "lng": -67.58821049649204,
+    "place": "Calle Zamora, muy cerca de la zona de Base Aragua y el sector Calicanto",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-26T19:12:43.623000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAonlNptuW/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "resultó con importantes afectaciones en su estructura tras las recientes contingencias."
+      }
+    ],
+    "images": [],
+    "floors": 5,
+    "floors_source": "osm"
+  },
+  {
+    "id": 139,
+    "name": "Residencias Gran Terraza",
+    "description": "A continuación publicamos la lista de los edificios seriamente dañados por los dos terremotos que sacudieron al estado La Guaira este miércoles, 24/6, a las 6 de la tarde.\nLos edificios Belo Horizonte de 18 pisos y Cáceres, en Playa Grande se derrumbaron totalmente. Igualmente el Hotel Edwards, una edificación de 10 pisos, se desplomó. Las comisiones de rescate están en los sitios.",
+    "lat": 10.59833809789832,
+    "lng": -66.79841188993521,
+    "place": "Residencias Guarda Parque, Caracas 1073, Miranda, Venezuela",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T01:25:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.facebook.com/groups/179236302134022/posts/27459982610299356/",
+        "text": "A continuación publicamos la lista de los edificios seriamente dañados por los dos terremotos que sacudieron al estado La Guaira este miércoles, 24/6, a las 6 de la tarde.\nLos edificios Belo Horizonte de 18 pisos y Cáceres, en Playa Grande se derrumbaron totalmente. Igualmente el Hotel Edwards, una edificación de 10 pisos, se desplomó. Las comisiones de rescate están en los sitios."
+      }
+    ],
+    "images": [],
+    "floors": 18,
+    "floors_source": "text"
+  },
+  {
+    "id": 135,
+    "name": "Residencias Las Quintas y La Campiña",
+    "description": "En Naguanagua, los sismos afectaron principalmente estructuras y mamposterías en sectores residenciales como Las Quintas yLa Campiña, como paredes pisos y escaleras.",
+    "lat": 10.4891898,
+    "lng": -66.9256119,
+    "place": "Los sectores Las Quintas y La Campiña son reconocidas urbanizaciones ubicadas en el Municipio Naguanagua, al norte de la ciudad de Valencia, Estado Carabobo",
+    "state": "Carabobo",
+    "municipality": "Naguanagua",
+    "date": "2026-06-26T03:21:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBt4xTnFFy/",
+        "text": "En Naguanagua, los sismos afectaron principalmente estructuras y mamposterías en sectores residenciales como Las Quintas, La Campiña  Además, se reportaron daños estructurales."
+      }
+    ],
+    "images": [],
+    "floors": 15,
+    "floors_source": "osm"
+  },
+  {
+    "id": 100,
+    "name": "RESIDENCIAS LLONA LA GUAIRA",
+    "description": "LOS CORALES LA GUAIRA",
+    "lat": 10.616696709426389,
+    "lng": -66.85883651718004,
+    "place": "LOS CORALES",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:15:14.954000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBJNvAOR9f/?igsh=MTM3YXV1b28xNjB3Mw%3D%3D",
+        "text": "LOS CORALES"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 179,
+    "name": "Residencias Maribel",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.6130611,
+    "lng": -66.8506128,
+    "place": "Residencias Maribel  Caraballeda",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T18:30:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://t.me/edixsucesosexplicitos/38526",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 136,
+    "name": "Residencias Mariola",
+    "description": "Por favor ve a palmar del este, al lado de la placita de Caraballeda, res Mariola y Maribel,  no sabemos nada de sus habitantes",
+    "lat": 10.618556,
+    "lng": -66.847583,
+    "place": "J593+F49, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-27T01:05:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBfHwoJAfv/",
+        "text": "Por favor ve a palmar del este, al lado de la placita de Caraballeda, res Mariola y Maribel 😢😢😢😢😢😢😢😢 no sabemos nada de sus habitantes"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 128,
+    "name": "residencias norah chacao",
+    "description": "residencias norah chacao",
+    "lat": 10.48036013017417,
+    "lng": -66.83397468964293,
+    "place": "edificio norah chacao miranda",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-26T01:49:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAl3LExvAw/",
+        "text": "edificio desalojado por falla critica en infraestructura"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 105,
+    "name": "Residencias Orca",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido, playa grande",
+    "lat": 10.609752597920552,
+    "lng": -67.0079309766003,
+    "place": "Av. Principal de Playa Grande, Catia La Mar",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:58:35.629000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaApYjsRiVT/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": 6,
+    "floors_source": "osm"
+  },
+  {
+    "id": 138,
+    "name": "Residencias San Antonio La Guaira, Venezuela",
+    "description": "Se evidencia un daño estructural de moderado a grave que requiere inspección técnica inmediata por parte de las autoridades de protección civil e ingenieros estructurales para evaluar el riesgo de colapso continuo.",
+    "lat": 10.60863246131892,
+    "lng": -67.03193978241514,
+    "place": "Res San Antonio, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T03:27:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaCJvkuDOf_/?img_index=1",
+        "text": "Se evidencia un daño estructural de moderado a grave que requiere inspección técnica inmediata por parte de las autoridades de protección civil e ingenieros estructurales para evaluar el riesgo de colapso continuo."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 142,
+    "name": "​Residencias Solimar",
+    "description": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 30.511029994834004,
+    "lng": -95.18271446228029,
+    "place": "Residencias Solimar se encuentra ubicada en el Sector San Jacinto, el cual pertenece al Municipio Girardot de la ciudad de Maracay, Estado Aragua.",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-25T04:53:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAuC4rpUxM/",
+        "text": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 36,
+    "name": "RESIDENCIAS VILLAMAR",
+    "description": "gente tapeada gritando.",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 45,
+    "name": "San Bernardino, Av. Los próceres, Caracas.",
+    "description": "Se acaba de registrar un derrumbe en la Av. Los Próceres. Hay gran cantidad de tierra y escombros obstruyendo el paso.",
+    "lat": 10.515692779762109,
+    "lng": -66.90084839369665,
+    "place": "Caracas 1011, Distrito Capital, Venezuela",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T06:46:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_komKMv_f/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "https://www.instagram.com/reel/DZ_komKMv_f/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ=="
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 166,
+    "name": "Sector La Páez, detrás del Bloque 3 Catia La Mar",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.600011,
+    "lng": -67.0247193,
+    "place": "Catia La Mar Sector La Páez, detrás del Bloque 3",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-02-26T15:50:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDZeJoCoIs/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 131,
+    "name": "Sede del Ministerio Público en La Guaira",
+    "description": "Registró un colapso parcial que dejó graves daños en el edificio donde operaban todas las fiscalías del estado",
+    "lat": 10.599912615021871,
+    "lng": -67.03818798065187,
+    "place": "Avenida La Atlántida, entre calles 5 y 6, en plena parroquia Catia La Mar",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T02:35:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaBaQZUpI28/",
+        "text": "La sede del Ministerio Público en La Guaira registró un colapso parcial que dejó graves daños en el edificio donde operaban todas las fiscalías del estado; reportes preliminares señalan que había vigilantes dentro del inmueble al momento del desplome, mientras equipos de emergencia realizan evaluaciones para determinar riesgos, causas y posibles afectados."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 86,
+    "name": "Sede ministerio publico la guaira",
+    "description": "se desplomo el edificio completamente",
+    "lat": 10.603055233834477,
+    "lng": -67.00602293530221,
+    "place": "maiquetia",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T18:11:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAx8SYT-gz/?igsh=MTZqbmJ1cnc0c2Jqbg%3D%3D",
+        "text": "se cayo el edificio en su totalidad"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 155,
+    "name": "segunda noche en la calle",
+    "description": "| FAMILIAS PASAN SU SEGUNDA NOCHE EN PLAZA VENEZUELA POR RIESGO ESTRUCTURAL ⚠️\n\nPor segunda noche consecutiva tras el devastador doble terremoto que golpeó a Venezuela, decenas de familias caraqueñas se han concentrado en las adyacencias y áreas verdes de Plaza Venezuela.\n\nColchones, sábanas y carpas improvisadas inundan el lugar. Muchas de estas personas tomaron la decisión de pernoctar a la intemperie debido a que sus viviendas y apartamentos presentan graves grietas y daños estructurales, manteniéndose bajo una estricta medida de seguridad ante el temor de nuevos colapsos.\n\nEn toda el área se observa un importante despliegue de cuerpos de seguridad policial, quienes resguardan la zona y brindan apoyo a los ciudadanos desplazados en medio de la emergencia.\n\n¡La solidaridad y la prevención son prioridad en este momento! Manta la calma y reporta cualquier daño en tu estructura a los bomberos. 🎥👇",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 25,
+    "name": "Simón Bolívar International Airport",
+    "description": "Aeropuerto queda afectado por terremoto 7.2",
+    "lat": 10.599474917031708,
+    "lng": -67.00150340366179,
+    "place": "HXXX+M99, Maiquetía 1162, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-02-25T06:10:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reels/DZ_LSgLO1fk/",
+        "text": "Derrumbe Aeropuerto Internacional Simón Bolívar"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 129,
+    "name": "supermercado Roca Azul",
+    "description": "shirleyvarnagy\n \nEditado\n•\n5 h\nEN EXCLUSIVA Imágenes desde La Guaira tomadas entre el mediodía y  2:30 pm de este jueves 25 tras el devastador terremoto que se registro en Venezuela.\n\nLos residentes solicitan ayuda URGENTE de las autoridades para rescatar a las personas que se encuentran aún bajo los escombros. \n\nAún no hay un balance de cuántos edificios se derrumbaron en La Guaira; el periodista @rcamachovzla asomó esta mañana en una entrevista que le hice para #ShirleyRadio que podrían ser unos 30 a lo largo de toda la costa varguense.\n\nSe presume que debajo del supermercado Roca Azul hay personas tapiadas que no han podido salir, tal es el caso de Willy Mardeni quien se encuentra desaparecido desde ayer cerca del lugar.",
+    "lat": 10.617773449703536,
+    "lng": -66.84987042698562,
+    "place": "J592+22W, Boulevard Monteclaro, Caraballeda 1165, La Guaira, Venezuela",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T01:37:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DaBXF4IH4Mn/",
+        "text": "EN EXCLUSIVA Imágenes desde La Guaira tomadas entre el mediodía y  2:30 pm de este jueves 25 tras el devastador terremoto que se registro en Venezuela.\n\nLos residentes solicitan ayuda URGENTE de las autoridades para rescatar a las personas que se encuentran aún bajo los escombros. \n\nAún no hay un balance de cuántos edificios se derrumbaron en La Guaira; el periodista @rcamachovzla asomó esta mañana en una entrevista que le hice para #ShirleyRadio que podrían ser unos 30 a lo largo de toda la costa varguense.\n\nSe presume que debajo del supermercado Roca Azul hay personas tapiadas que no han podido salir, tal es el caso de Willy Mardeni quien se encuentra desaparecido desde ayer cerca del lugar. \n\nPor favor, escriban el nombre de sus familiares desaparecidos en La Guaira  aquí, espero esta publicación sirva para que las autoridades los encuentren o alguien que sepa de ellos pueda informarles. \n\n#LaGuaira\n#Venezuela\n#terremoto"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 215,
+    "name": "Supermercado Roca Azul.",
+    "description": "el Supermercado sufrió su perdida completa después de derrumbarse por los terremotos que ocurrieron",
+    "lat": 10.617731269142633,
+    "lng": -66.84995625767023,
+    "place": "sector Caribe de la parroquia Caraballeda",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-30T19:34:59.988000+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaMdf3OoF_e/?utm_source=ig_web_button_share_sheet",
+        "text": "el Supermercado sufrió su perdida completa después de derrumbarse por los terremotos que ocurrieron"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 59,
+    "name": "Torre exterior Av Bolívar con grietas",
+    "description": "se visualiza una grieta en la estructura",
+    "lat": 10.161034069782549,
+    "lng": -67.99118647035417,
+    "place": "5265+3CC, Av. 92, Valencia 2001, Carabobo, Venezuela",
+    "state": "Carabobo",
+    "municipality": "Valencia",
+    "date": "2026-06-25T07:35:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DZ_uQIGNAbZ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "se visualiza una grieta en la estructura"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 173,
+    "name": "Torre OP Gran Misión Vivienda Venezuela",
+    "description": "Graves daños en la infraestructura de la torre",
+    "lat": 10.61529363450476,
+    "lng": -66.84012622882163,
+    "place": "J585+4W3, Caraballeda 1165, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-26T17:11:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/cristiancrespoj/status/2070514894580150359?s=20",
+        "text": "Graves daños a la torre OPOPP-25 u OPP-22 de la Gran Mision vivienda Venezuela"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 91,
+    "name": "ubanizacion ,edificio la mariposa",
+    "description": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.5006,
+    "lng": -66.8321,
+    "place": "los dos caminos , Av. sucre , edificio la mariposa",
+    "state": "Miranda",
+    "municipality": "Sucre",
+    "date": "2026-06-25T16:07:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_ORZIyGWs/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despligues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 197,
+    "name": "Urbanismo Bosque Lindo",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido,  / zona urbana de Santiago Mariño,  Turmero.",
+    "lat": 10.228504,
+    "lng": -67.4741463,
+    "place": "Turmero / zona urbana de Santiago Mariño Urbanismo Bosque Lindo",
+    "state": "Aragua",
+    "municipality": "Santiago Mariño",
+    "date": "2026-06-26T20:00:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaDp7XbxiKV/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 51,
+    "name": "Urbanismo Hugo Chávez",
+    "description": "información sobre el sismo registrado recientemente en Venezuela. Elevamos una oración por todas las personas afectadas y esperamos que se encuentren bien y a salvo. estructuras completamente perdias",
+    "lat": 10.60907905920656,
+    "lng": -67.02505245266546,
+    "place": "Catia La Mar - La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T22:58:00+00:00",
+    "sources": [
+      {
+        "platform": "x",
+        "url": "https://x.com/LaVerdadVargas/status/2069955941760393426",
+        "text": "Pérdida absoluta de viviendas e infraestructura"
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "osm"
+  },
+  {
+    "id": 130,
+    "name": "Urbanismo Ojos de Chávez",
+    "description": "Fallas de estructura por el sismo registrado recientemente, dejando desprendimiento de paredes, grietas profundas en las estructuras de los ascensores y escombros esparcidos en los pasillos de las escaleras.",
+    "lat": 10.5001627,
+    "lng": -66.9198679,
+    "place": "urbanismoOjos de Chávez, ubicado en la Avenida Bolívar de Caracas.",
+    "state": "Distrito Capital",
+    "municipality": "Libertador",
+    "date": "2026-06-26T02:17:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAyAWmipxM/",
+        "text": "El sismo registrado recientemente dejó importantes afectaciones en la infraestructura del urbanismo \"Ojos de Chávez\", ubicado en la Avenida Bolívar de Caracas. Un recorrido por las instalaciones revela el desprendimiento de paredes, grietas profundas en las estructuras de los ascensores y escombros esparcidos en los pasillos de las escaleras."
+      }
+    ],
+    "images": [],
+    "floors": 12,
+    "floors_source": "osm"
+  },
+  {
+    "id": 146,
+    "name": "Urbanización Bosque lindo en Turmero",
+    "description": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques.",
+    "lat": 10.2414968,
+    "lng": -67.5604973,
+    "place": "La Urbanización Bosque Lindo se encuentra ubicada en el Municipio Santiago Mariño (cuya capital es Turmero), en el Estado Aragua. Geográficamente, se sitúa a un costado de la Avenida Intercomunal Santiago Mariño",
+    "state": "Aragua",
+    "municipality": "Santiago Mariño",
+    "date": "2026-06-26T06:06:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaBqggTuPX2/",
+        "text": "sufrieron daños estructurales, como paredes, escaleras, se prohibido el ingreso a las estructuras para la recuperación de enseres, debido al debilitamiento visible en los bloques."
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 84,
+    "name": "URBANIZACION LA HACIENDA",
+    "description": "edificio semi derrumbado posible personas dentro",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 54,
+    "name": "URBANIZACION LA V ROJA DE SUMA",
+    "description": "TOTAL COLAPSO DE LOS 20 EDIFICIOS",
+    "lat": 10.606963785551006,
+    "lng": -67.02397933437167,
+    "place": "JX4G+M9P, Maiquetía 1162, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T07:17:00+00:00",
+    "sources": [
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@tuasesora.enlinea/photo/7655111356449852694?_r=1&_t=ZS-97UywrZk2tO&image_index=3",
+        "text": "20 VIVIENDAS TOTALMENTE COLAPSADAS EN EL URBANISMO ROJA DE SUMA"
+      }
+    ],
+    "images": [],
+    "floors": 4,
+    "floors_source": "osm"
+  },
+  {
+    "id": 41,
+    "name": "urbanización Los Palos Grandes de Caracas",
+    "description": "Tras el terremoto de magnitud 7.1 en venezuela, comienzan a circular las primeras impagenes de daños en varias ciudades. En la urbanización Los Palos Grandes de Caracas hubo daños severos a infraestructuras y el desplome de un edificio, según videos y fotografías tomados por vecinos del sector.",
+    "lat": 10.500966,
+    "lng": -66.843722,
+    "place": "Los Palos Grandes Caracas 1060, Miranda",
+    "state": "Miranda",
+    "municipality": "Chacao",
+    "date": "2026-06-25T10:28:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DZ_ICTuEZ8j/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Tras el terremoto de magnitud 7.1 en venezuela, comienzan a circular las primeras impagenes de daños en varias ciudades. En la urbanización Los Palos Grandes de Caracas hubo daños severos a infraestructuras y el desplome de un edificio, según videos y fotografías tomados por vecinos del sector."
+      }
+    ],
+    "images": [],
+    "floors": 13,
+    "floors_source": "osm"
+  },
+  {
+    "id": 85,
+    "name": "urbanizacion palmar oeste",
+    "description": "necesitan ayuda con el desalojo de los escombros , para encontrar sus familiares",
+    "lat": 10.610637517108232,
+    "lng": -66.86331082558061,
+    "place": "craballeda , urbanizacion palmar oeste",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T15:05:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAqv3mxJ3A/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "piden ayuda para despejar los escombros de la urbanizacion"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 75,
+    "name": "URBANIZACION PLAYA GRANDE",
+    "description": "5 PERSONAS CONTINUAN BAJO LOS ESCOMBROS",
+    "lat": 10.610348206927132,
+    "lng": -66.88811812712207,
+    "place": "J456+XP8, Macuto 1164, La Guaira",
+    "state": "La Guaira",
+    "municipality": "Vargas",
+    "date": "2026-06-25T12:02:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaAdOjaoqCO/?igsh=MWRzb2d3ZmN3eG9uaA%3D%3D",
+        "text": "las personas continúan debajo de los escombros responden al llamado de los familiares"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 80,
+    "name": "urb la hacienda guatire",
+    "description": "edificio semi desplomado posible personas adentro",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 172,
+    "name": "Yaracuy, viviendas colapsadas",
+    "description": "Varias viviendas del área metropolitana del estado Yaracuy resultaron afectadas por los terremotos del 24 de junio; algunos inmuebles sufrieron daños en sus fachadas y parte internas, y hubo otros que cedieron totalmente.\n\nLos vecinos aseguran que vivieron segundos de mucho miedo al ver cómo sus estructuras se agrietaban o colapsaban en cuestión de segundos; este sentimiento aún persiste, puesto que en algunos casos temen que su inmueble pueda verse aún más afectado si se repite otro movimiento telúrico.",
+    "lat": 10.331244119925449,
+    "lng": -68.79186565299092,
+    "place": "86G6+V3, Cocorote 3208, Yaracuy, Venezuela",
+    "state": "Yaracuy",
+    "municipality": "Cocorote",
+    "date": "2026-06-26T15:07:00+00:00",
+    "sources": [
+      {
+        "platform": "otro",
+        "url": "https://yaracuyaldia.com/yaracuy/local/yaracuy-tras-los-sismos-viviendas-colapsadas-escombros-y-miedo/",
+        "text": "Yaracuy tras los sismos: viviendas colapsadas, escombros y miedo"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 184,
+    "name": "Zona central de Choroní / plaza principal",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": 10.4877184,
+    "lng": -67.6123251,
+    "place": "Zona central de Choroní / plaza principal",
+    "state": "Aragua",
+    "municipality": "Girardot",
+    "date": "2026-06-20T19:45:00+00:00",
+    "sources": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DaD0E2yOj7p/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+        "text": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido"
+      }
+    ],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  },
+  {
+    "id": 193,
+    "name": "Zonas residenciales y edificaciones del litoral central",
+    "description": "Se encuentran con despliegues de infraestructura y desalojo del personal habitante del mismo ya que se encuentra en riesgo debido al sismo ocurrido",
+    "lat": null,
+    "lng": null,
+    "place": null,
+    "state": null,
+    "municipality": null,
+    "date": null,
+    "sources": [],
+    "images": [],
+    "floors": null,
+    "floors_source": null
+  }
+]
