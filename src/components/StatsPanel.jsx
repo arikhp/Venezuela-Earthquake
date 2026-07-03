@@ -1,5 +1,5 @@
 import { CATEGORIES, getCategory } from '../utils/classify';
-import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function StatsPanel({ buildings, activeCategories, onToggle }) {
   const counts = CATEGORIES.map(cat => ({
@@ -10,16 +10,6 @@ export default function StatsPanel({ buildings, activeCategories, onToggle }) {
   const filteredBuildings = buildings.filter(b =>
     activeCategories.includes(getCategory(b.floors).id)
   );
-
-  const useCounts = {};
-  filteredBuildings.forEach(b => {
-    const u = b.use || 'Unknown';
-    useCounts[u] = (useCounts[u] || 0) + 1;
-  });
-  const useData = Object.entries(useCounts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 6)
-    .map(([name, value]) => ({ name, value }));
 
   return (
     <aside className="stats-panel">
@@ -68,21 +58,6 @@ export default function StatsPanel({ buildings, activeCategories, onToggle }) {
           </PieChart>
         </ResponsiveContainer>
       </div>
-
-      {useData.length > 0 && (
-        <div className="chart-section">
-          <h3 className="chart-title">Building Use (visible)</h3>
-          <ResponsiveContainer width="100%" height={180}>
-            <BarChart data={useData} layout="vertical" margin={{ left: 10, right: 20 }}>
-              <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-              <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" width={90} tick={{ fontSize: 10 }} />
-              <Tooltip />
-              <Bar dataKey="value" fill="#6366f1" radius={[0, 4, 4, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      )}
 
       <div className="summary-grid">
         <div className="summary-card">

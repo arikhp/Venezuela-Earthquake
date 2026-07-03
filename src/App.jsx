@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from './assets/logo.png';
 import buildings from './buildings.json';
 import { CATEGORIES } from './utils/classify';
 import StatsPanel from './components/StatsPanel';
@@ -20,8 +21,11 @@ export default function App() {
     <div className="dashboard">
       <header className="topbar">
         <div className="topbar-inner">
-          <h1 className="topbar-title">Building Inspection Dashboard</h1>
-          <span className="topbar-sub">Floor Classification &amp; Geographic Distribution</span>
+          <img src={logo} alt="Logo" className="topbar-logo" />
+          <div>
+            <h1 className="topbar-title">Building Inspection Dashboard</h1>
+            <span className="topbar-sub">Floor Classification &amp; Geographic Distribution</span>
+          </div>
         </div>
       </header>
       <main className="main-layout">
