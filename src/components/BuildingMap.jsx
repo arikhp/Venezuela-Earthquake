@@ -1,7 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { getCategory } from '../utils/classify';
+import { mmiRoman, mmiLabel, MMI_LEVELS } from '../utils/mmi';
+import { buildIntensityHeatmap } from '../utils/heatmap';
 
 const BASEMAPS = {
   esri_imagery: {
@@ -46,12 +48,13 @@ const PLATFORM_ICONS = {
   instagram: '📸', x: '🐦', facebook: '📘', tiktok: '🎵', youtube: '▶️', otro: '🔗',
 };
 
-export default function BuildingMap({ buildings, activeCategories, socialReports, showSocialLayer }) {
-  const mapRef       = useRef(null);
-  const mapInst      = useRef(null);
-  const inspLayer    = useRef(null);
-  const socialLayer  = useRef(null);
-  const baseTileRef  = useRef(null);
+export default function BuildingMap({ buildings, activeCategories, socialReports, showSocialLayer, shakemap, showIntensityLayer }) {
+  const mapRef        = useRef(null);
+  const mapInst       = useRef(null);
+  const intensityLayer = useRef(null);
+  const inspLayer      = useRef(null);
+  const socialLayer    = useRef(null);
+  const baseTileRef    = useRef(null);
   const [activeBasemap, setActiveBasemap] = useState('esri_imagery');
 
   /* init map once */
@@ -60,10 +63,39 @@ export default function BuildingMap({ buildings, activeCategories, socialReports
     const map = L.map(mapRef.current, { center: [10.5, -66.9], zoom: 10, zoomControl: true });
     const bm = BASEMAPS.esri_imagery;
     baseTileRef.current = L.tileLayer(bm.url, { attribution: bm.attribution, maxZoom: bm.maxZoom }).addTo(map);
-    mapInst.current   = map;
-    inspLayer.current   = L.layerGroup().addTo(map);
-    socialLayer.current = L.layerGroup().addTo(map);
+    mapInst.current      = map;
+    intensityLayer.current = L.layerGroup().addTo(map);
+    inspLayer.current      = L.layerGroup().addTo(map);
+    socialLayer.current    = L.layerGroup().addTo(map);
   }, []);
+
+  const heatmap = useMemo(() => (shakemap ? buildIntensityHeatmap(shakemap) : null), [shakemap]);
+
+  /* USGS ShakeMap intensity layer */
+  useEffect(() => {
+    if (!mapInst.current) return;
+    intensityLayer.current.clearLayers();
+    if (!showIntensityLayer || !heatmap) return;
+
+    const overlay = L.imageOverlay(heatmap.url, heatmap.bounds, {
+      opacity: 0.6,
+      interactive: false,
+      className: 'mmi-heat-img',
+    });
+    intensityLayer.current.addLayer(overlay);
+
+    const { latitude, longitude } = shakemap.metadata || {};
+    if (latitude != null && longitude != null) {
+      const star = L.divIcon({
+        className: '',
+        html: `<div style="font-size:20px;line-height:1;filter:drop-shadow(0 1px 3px rgba(0,0,0,0.7))">⭐</div>`,
+        iconSize: [20, 20], iconAnchor: [10, 10],
+      });
+      const epicenter = L.marker([latitude, longitude], { icon: star });
+      epicenter.bindPopup(`<div style="font-size:13px"><b>Epicenter</b><br/>${latitude.toFixed(3)}, ${longitude.toFixed(3)}</div>`);
+      intensityLayer.current.addLayer(epicenter);
+    }
+  }, [shakemap, showIntensityLayer]);
 
   /* inspection layer */
   useEffect(() => {
@@ -146,6 +178,18 @@ export default function BuildingMap({ buildings, activeCategories, socialReports
   return (
     <div style={{ position: 'relative', flex: 1, minHeight: 0, minWidth: 0 }}>
       <div ref={mapRef} className="map-container" />
+      {/* USGS ShakeMap intensity legend */}
+      {showIntensityLayer && (
+        <div className="mmi-legend">
+          <div className="mmi-legend-title">USGS Shaking Intensity</div>
+          {MMI_LEVELS.map(l => (
+            <div key={l.value} className="mmi-legend-row">
+              <span className="mmi-swatch" style={{ background: l.color }} />
+              <span>{mmiRoman(l.value)} · {mmiLabel(l.value)}</span>
+            </div>
+          ))}
+        </div>
+      )}
       {/* Basemap switcher */}
       <div className="basemap-switcher">
         {Object.entries(BASEMAPS).map(([key, bm]) => (

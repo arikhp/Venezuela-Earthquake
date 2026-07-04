@@ -14,7 +14,7 @@ export default function Intro({ onDone }) {
   return (
     <div className={`intro-overlay intro-${phase}`}>
       <img src={logo} alt="Logo" className="intro-logo" />
-      <p className="intro-title">Building Inspection Dashboard</p>
+      <p className="intro-title">Agamim Venezuela Earthquake Portal</p>
     </div>
   );
 }

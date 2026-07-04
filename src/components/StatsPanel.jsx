@@ -1,9 +1,11 @@
 import { CATEGORIES, getCategory } from '../utils/classify';
+import { mmiRoman, mmiLabel, MMI_LEVELS } from '../utils/mmi';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function StatsPanel({
   buildings, activeCategories, onToggle,
   socialReports, showSocialLayer, onToggleSocialLayer,
+  showIntensityLayer, onToggleIntensityLayer,
   isOpen, onTogglePanel,
 }) {
   const counts = CATEGORIES.map(cat => ({
@@ -163,6 +165,34 @@ export default function StatsPanel({
               </span>
               <span className="summary-lbl">Max floors</span>
             </div>
+          </div>
+
+          <div className="layer-divider" />
+
+          {/* ── Layer 3: USGS ShakeMap Intensity ── */}
+          <div className="layer-header">
+            <span className="layer-dot shake-dot" />
+            <h2 className="panel-title">USGS ShakeMap Intensity</h2>
+            <button
+              className={`layer-toggle ${showIntensityLayer ? 'on' : 'off'}`}
+              onClick={onToggleIntensityLayer}
+            >
+              {showIntensityLayer ? 'ON' : 'OFF'}
+            </button>
+          </div>
+          <p className="panel-sub">Modified Mercalli Intensity contours</p>
+
+          <div className="category-filters">
+            {MMI_LEVELS.map(l => (
+              <div
+                key={l.value}
+                className="cat-btn active"
+                style={{ '--cat-color': l.color, opacity: showIntensityLayer ? 1 : 0.35 }}
+              >
+                <span className="cat-dot" style={{ background: l.color }} />
+                <span className="cat-label">{mmiRoman(l.value)} · {mmiLabel(l.value)}</span>
+              </div>
+            ))}
           </div>
 
         </div>
