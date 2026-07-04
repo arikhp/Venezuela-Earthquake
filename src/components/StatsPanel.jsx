@@ -1,11 +1,9 @@
 import { CATEGORIES, getCategory } from '../utils/classify';
-import { mmiRoman, mmiLabel, MMI_LEVELS } from '../utils/mmi';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function StatsPanel({
   buildings, activeCategories, onToggle,
-  socialReports, showSocialLayer, onToggleSocialLayer,
-  showIntensityLayer, onToggleIntensityLayer,
+  affectedBuildings, showAffectedLayer, onToggleAffectedLayer,
   isOpen, onTogglePanel,
 }) {
   const counts = CATEGORIES.map(cat => ({
@@ -17,11 +15,8 @@ export default function StatsPanel({
     activeCategories.includes(getCategory(b.floors).id)
   );
 
-  const socialWithFloors = socialReports.filter(r => r.floors);
-  const socialCounts = CATEGORIES.map(cat => ({
-    ...cat,
-    count: socialWithFloors.filter(r => getCategory(r.floors).id === cat.id).length,
-  }));
+  const collapsedCount  = affectedBuildings.filter(b => b.status === 'COLAPSO').length;
+  const emergencyCount  = affectedBuildings.filter(b => b.status === 'EMERGENCIA').length;
 
   return (
     <>
@@ -99,100 +94,36 @@ export default function StatsPanel({
 
           <div className="layer-divider" />
 
-          {/* ── Layer 2: Social Media Reports ── */}
+          {/* ── Layer 2: Affected Buildings (KML survey) ── */}
           <div className="layer-header">
-            <span className="layer-dot social-dot" />
-            <h2 className="panel-title">Social Media Reports</h2>
-            <span className="layer-badge">{socialReports.length}</span>
+            <span className="layer-dot affected-dot" />
+            <h2 className="panel-title">Affected Buildings</h2>
+            <span className="layer-badge">{affectedBuildings.length}</span>
             <button
-              className={`layer-toggle ${showSocialLayer ? 'on' : 'off'}`}
-              onClick={onToggleSocialLayer}
+              className={`layer-toggle ${showAffectedLayer ? 'on' : 'off'}`}
+              onClick={onToggleAffectedLayer}
             >
-              {showSocialLayer ? 'ON' : 'OFF'}
+              {showAffectedLayer ? 'ON' : 'OFF'}
             </button>
           </div>
-          <p className="panel-sub">Crowd-sourced via Instagram, X, Facebook</p>
+          <p className="panel-sub">Building footprint survey (KML)</p>
 
           <div className="category-filters">
-            {socialCounts.map(cat => (
-              <div
-                key={cat.id}
-                className="cat-btn active"
-                style={{ '--cat-color': cat.color, opacity: showSocialLayer ? 1 : 0.35 }}
-              >
-                <span className="cat-dot" style={{ background: cat.color }} />
-                <span className="cat-label">{cat.label}</span>
-                <span className="cat-count">{cat.count}</span>
-              </div>
-            ))}
-          </div>
-
-          {socialWithFloors.length > 0 && (
-            <div className="chart-section">
-              <h3 className="chart-title">Distribution by Category</h3>
-              <ResponsiveContainer width="100%" height={220}>
-                <PieChart>
-                  <Pie data={socialCounts} dataKey="count" nameKey="label"
-                    cx="50%" cy="45%" outerRadius={80} innerRadius={36}>
-                    {socialCounts.map(cat => (
-                      <Cell key={cat.id} fill={cat.color}
-                        opacity={showSocialLayer ? 1 : 0.25} />
-                    ))}
-                  </Pie>
-                  <Tooltip
-                    formatter={(v, n) => [v + ' reports', n]}
-                    contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8, color: '#e2e8f0' }}
-                    itemStyle={{ color: '#e2e8f0' }}
-                  />
-                  <Legend iconType="circle" iconSize={9} wrapperStyle={{ fontSize: 11, color: '#94a3b8' }} />
-                </PieChart>
-              </ResponsiveContainer>
+            <div className="cat-btn active" style={{ '--cat-color': '#a855f7', opacity: showAffectedLayer ? 1 : 0.35 }}>
+              <span className="cat-dot" style={{ background: '#a855f7' }} />
+              <span className="cat-label">Surveyed structure</span>
+              <span className="cat-count">{affectedBuildings.length - collapsedCount - emergencyCount}</span>
             </div>
-          )}
-
-          <div className="summary-grid">
-            <div className="summary-card">
-              <span className="summary-num">{socialReports.filter(r => r.lat).length}</span>
-              <span className="summary-lbl">With location</span>
+            <div className="cat-btn active" style={{ '--cat-color': '#f97316', opacity: showAffectedLayer ? 1 : 0.35 }}>
+              <span className="cat-dot" style={{ background: '#f97316' }} />
+              <span className="cat-label">Emergency</span>
+              <span className="cat-count">{emergencyCount}</span>
             </div>
-            <div className="summary-card">
-              <span className="summary-num">{socialWithFloors.length}</span>
-              <span className="summary-lbl">With floor data</span>
+            <div className="cat-btn active" style={{ '--cat-color': '#dc2626', opacity: showAffectedLayer ? 1 : 0.35 }}>
+              <span className="cat-dot" style={{ background: '#dc2626' }} />
+              <span className="cat-label">Collapsed</span>
+              <span className="cat-count">{collapsedCount}</span>
             </div>
-            <div className="summary-card">
-              <span className="summary-num">
-                {socialWithFloors.length ? Math.max(...socialWithFloors.map(r => r.floors)) : '—'}
-              </span>
-              <span className="summary-lbl">Max floors</span>
-            </div>
-          </div>
-
-          <div className="layer-divider" />
-
-          {/* ── Layer 3: USGS ShakeMap Intensity ── */}
-          <div className="layer-header">
-            <span className="layer-dot shake-dot" />
-            <h2 className="panel-title">USGS ShakeMap Intensity</h2>
-            <button
-              className={`layer-toggle ${showIntensityLayer ? 'on' : 'off'}`}
-              onClick={onToggleIntensityLayer}
-            >
-              {showIntensityLayer ? 'ON' : 'OFF'}
-            </button>
-          </div>
-          <p className="panel-sub">Modified Mercalli Intensity contours</p>
-
-          <div className="category-filters">
-            {MMI_LEVELS.map(l => (
-              <div
-                key={l.value}
-                className="cat-btn active"
-                style={{ '--cat-color': l.color, opacity: showIntensityLayer ? 1 : 0.35 }}
-              >
-                <span className="cat-dot" style={{ background: l.color }} />
-                <span className="cat-label">{mmiRoman(l.value)} · {mmiLabel(l.value)}</span>
-              </div>
-            ))}
           </div>
 
         </div>

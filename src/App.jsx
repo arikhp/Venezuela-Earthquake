@@ -1,8 +1,7 @@
 import { useState, useCallback } from 'react';
 import logo from './assets/logo.png';
 import buildings from './buildings.json';
-import socialReports from './social_reports.json';
-import shakemap from './shakemap_mmi.json';
+import affectedBuildings from './affected_buildings.json';
 import { CATEGORIES } from './utils/classify';
 import StatsPanel from './components/StatsPanel';
 import BuildingMap from './components/BuildingMap';
@@ -11,8 +10,7 @@ import './App.css';
 
 export default function App() {
   const [activeCategories, setActiveCategories] = useState(CATEGORIES.map(c => c.id));
-  const [showSocialLayer, setShowSocialLayer]   = useState(true);
-  const [showIntensityLayer, setShowIntensityLayer] = useState(true);
+  const [showAffectedLayer, setShowAffectedLayer] = useState(true);
   const [panelOpen, setPanelOpen]               = useState(true);
   const [introDone, setIntroDone]               = useState(false);
 
@@ -44,21 +42,17 @@ export default function App() {
             buildings={buildings}
             activeCategories={activeCategories}
             onToggle={toggleCategory}
-            socialReports={socialReports}
-            showSocialLayer={showSocialLayer}
-            onToggleSocialLayer={() => setShowSocialLayer(p => !p)}
-            showIntensityLayer={showIntensityLayer}
-            onToggleIntensityLayer={() => setShowIntensityLayer(p => !p)}
+            affectedBuildings={affectedBuildings}
+            showAffectedLayer={showAffectedLayer}
+            onToggleAffectedLayer={() => setShowAffectedLayer(p => !p)}
             isOpen={panelOpen}
             onTogglePanel={() => setPanelOpen(p => !p)}
           />
           <BuildingMap
             buildings={buildings}
             activeCategories={activeCategories}
-            socialReports={socialReports}
-            showSocialLayer={showSocialLayer}
-            shakemap={shakemap}
-            showIntensityLayer={showIntensityLayer}
+            affectedBuildings={affectedBuildings}
+            showAffectedLayer={showAffectedLayer}
           />
         </main>
       </div>
