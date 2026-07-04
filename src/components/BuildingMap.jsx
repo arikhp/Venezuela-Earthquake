@@ -1,19 +1,34 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { getCategory } from '../utils/classify';
+
+const BASEMAPS = {
+  esri_imagery: {
+    label: '🛰 Satellite',
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Tiles © Esri — Source: Esri, Maxar, GeoEye, Earthstar Geographics',
+    maxZoom: 19,
+  },
+  esri_streets: {
+    label: '🗺 Streets',
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Tiles © Esri — Source: Esri, HERE, Garmin, USGS',
+    maxZoom: 19,
+  },
+  osm: {
+    label: '🌍 OpenStreetMap',
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19,
+  },
+};
 
 /* ── Marker factories ── */
 function circleIcon(color) {
   return L.divIcon({
     className: '',
-    html: `<div style="
-      width:13px;height:13px;
-      background:${color};
-      border:2px solid rgba(255,255,255,0.85);
-      border-radius:50%;
-      box-shadow:0 1px 5px rgba(0,0,0,0.5);
-    "></div>`,
+    html: `<div style="width:13px;height:13px;background:${color};border:2px solid rgba(255,255,255,0.85);border-radius:50%;box-shadow:0 1px 5px rgba(0,0,0,0.5);"></div>`,
     iconSize: [13, 13], iconAnchor: [6, 6], popupAnchor: [0, -10],
   });
 }
@@ -21,37 +36,32 @@ function circleIcon(color) {
 function diamondIcon(color) {
   return L.divIcon({
     className: '',
-    html: `<div style="
-      width:13px;height:13px;
-      background:${color};
-      border:2px solid rgba(255,255,255,0.85);
-      transform:rotate(45deg);
-      box-shadow:0 1px 5px rgba(0,0,0,0.5);
-    "></div>`,
+    html: `<div style="width:13px;height:13px;background:${color};border:2px solid rgba(255,255,255,0.85);transform:rotate(45deg);box-shadow:0 1px 5px rgba(0,0,0,0.5);"></div>`,
     iconSize: [13, 13], iconAnchor: [6, 6], popupAnchor: [0, -10],
   });
 }
+
 
 const PLATFORM_ICONS = {
   instagram: '📸', x: '🐦', facebook: '📘', tiktok: '🎵', youtube: '▶️', otro: '🔗',
 };
 
 export default function BuildingMap({ buildings, activeCategories, socialReports, showSocialLayer }) {
-  const mapRef  = useRef(null);
-  const mapInst = useRef(null);
-  const inspLayer  = useRef(null);
-  const socialLayer = useRef(null);
+  const mapRef       = useRef(null);
+  const mapInst      = useRef(null);
+  const inspLayer    = useRef(null);
+  const socialLayer  = useRef(null);
+  const baseTileRef  = useRef(null);
+  const [activeBasemap, setActiveBasemap] = useState('esri_imagery');
 
   /* init map once */
   useEffect(() => {
     if (mapInst.current) return;
     const map = L.map(mapRef.current, { center: [10.5, -66.9], zoom: 10, zoomControl: true });
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 19,
-    }).addTo(map);
-    mapInst.current  = map;
-    inspLayer.current  = L.layerGroup().addTo(map);
+    const bm = BASEMAPS.esri_imagery;
+    baseTileRef.current = L.tileLayer(bm.url, { attribution: bm.attribution, maxZoom: bm.maxZoom }).addTo(map);
+    mapInst.current   = map;
+    inspLayer.current   = L.layerGroup().addTo(map);
     socialLayer.current = L.layerGroup().addTo(map);
   }, []);
 
@@ -92,21 +102,18 @@ export default function BuildingMap({ buildings, activeCategories, socialReports
     if (!mapInst.current) return;
     socialLayer.current.clearLayers();
     if (!showSocialLayer) return;
-
     socialReports
       .filter(r => r.lat && r.lng)
       .forEach(r => {
-        const color = r.floors ? getCategory(r.floors).color : '#94a3b8';
+        const color    = r.floors ? getCategory(r.floors).color : '#94a3b8';
         const catLabel = r.floors ? getCategory(r.floors).label : 'Unknown floors';
         const m = L.marker([r.lat, r.lng], { icon: diamondIcon(color) });
-
         const sourcesHtml = (r.sources || [])
           .filter(s => s.url)
           .map(s => {
             const icon = PLATFORM_ICONS[s.platform] || '🔗';
             return `<a href="${s.url}" target="_blank" style="color:#60a5fa;font-size:11px">${icon} ${s.platform}</a>`;
           }).join(' &nbsp;');
-
         m.bindPopup(`
           <div style="min-width:200px;font-size:13px">
             <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
@@ -126,5 +133,31 @@ export default function BuildingMap({ buildings, activeCategories, socialReports
       });
   }, [socialReports, showSocialLayer]);
 
-  return <div ref={mapRef} className="map-container" />;
+  /* swap basemap */
+  useEffect(() => {
+    if (!mapInst.current || !baseTileRef.current) return;
+    const bm = BASEMAPS[activeBasemap];
+    baseTileRef.current.remove();
+    baseTileRef.current = L.tileLayer(bm.url, { attribution: bm.attribution, maxZoom: bm.maxZoom });
+    baseTileRef.current.addTo(mapInst.current);
+    baseTileRef.current.bringToBack();
+  }, [activeBasemap]);
+
+  return (
+    <div style={{ position: 'relative', flex: 1, minHeight: 0, minWidth: 0 }}>
+      <div ref={mapRef} className="map-container" />
+      {/* Basemap switcher */}
+      <div className="basemap-switcher">
+        {Object.entries(BASEMAPS).map(([key, bm]) => (
+          <button
+            key={key}
+            className={`basemap-btn ${activeBasemap === key ? 'active' : ''}`}
+            onClick={() => setActiveBasemap(key)}
+          >
+            {bm.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
 }
