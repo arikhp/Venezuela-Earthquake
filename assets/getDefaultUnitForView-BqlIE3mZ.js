@@ -1,0 +1,1 @@
+import{gn as e}from"./coordsUtils-ByXvQOU0.js";import{at as t}from"./vec3f64-CVKJIzmo.js";function n(n){let r=`metric`;if(!n)return r;let{map:i}=n,a=(i&&`portalItem`in i?i.portalItem?.portal:null)??t.getDefault();switch(a.user?.units??a.units){case r:return r;case`english`:return`imperial`}return e(n.spatialReference)??r}export{n as t};

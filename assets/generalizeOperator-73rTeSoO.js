@@ -1,0 +1,1 @@
+import"./index-C4zzAoDP.js";import"./coordsUtils-ByXvQOU0.js";import"./apiConverter-D315yRte.js";import"./operatorGeneralize-DQNKFVef.js";import{i as e,n as t,r as n}from"./generalizeOperator-CLpRyW6F.js";export{e as execute,t as executeMany,n as supportsCurves};

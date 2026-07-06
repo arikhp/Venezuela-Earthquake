@@ -1,0 +1,1 @@
+import{A as e,M as t,R as n,j as r}from"./Widget-MRLYpxQF.js";var i=r(class extends t{constructor(){super(...arguments),this.key=n}render(e,t){return this.key=e,t}update(t,[n,r]){return n!==this.key&&(e(t),this.key=n),r}});export{i as t};

@@ -1,0 +1,1 @@
+import{g as e,m as t,p as n,y as r}from"./coordsUtils-ByXvQOU0.js";import{h as i}from"./aaBoundingRect-D0wW86va.js";import{g as a,h as o,l as s,n as c,w as l}from"./ellipticArc7Utils-aCvxCfpU.js";function u(u,d,f){return t(f)?(i(u,d),i(u,f),u):e(f)?l(u,d,f):n(f)?a(u,o(d,f)):r(f)?a(u,s(d,f)):c(u,d,f)}export{u as t};

@@ -1,0 +1,1 @@
+import"./coordsUtils-ByXvQOU0.js";import"./apiConverter-D315yRte.js";import{n as e,t}from"./areaOperator-BXNSWTek.js";export{t as execute,e as supportsCurves};
