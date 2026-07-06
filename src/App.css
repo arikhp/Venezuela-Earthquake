@@ -86,49 +86,40 @@ body {
 .panel-title { font-size: 14px; font-weight: 700; color: #f1f5f9; }
 .panel-sub { font-size: 12px; color: #475569; margin-top: -12px; }
 
-/* ── Category filter buttons ── */
-.category-filters { display: flex; flex-direction: column; gap: 7px; }
-
-.cat-btn {
+/* ── Bivariate legend (debris × population) ── */
+.bivariate-legend {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 9px 11px;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  background: #1e293b;
-  cursor: pointer;
-  transition: all 0.15s;
-  text-align: left;
-  width: 100%;
+  gap: 8px;
 }
-.cat-btn.active {
-  border-color: var(--cat-color);
-  background: color-mix(in srgb, var(--cat-color) 12%, #1e293b);
+.bivariate-axis-y {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10px;
+  color: #64748b;
+  flex-shrink: 0;
 }
-.cat-btn.inactive { opacity: 0.35; }
-.cat-btn:hover { opacity: 1; border-color: var(--cat-color); }
-
-.cat-dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-.cat-label { flex: 1; font-size: 12px; font-weight: 500; color: #cbd5e1; }
-.cat-count {
-  font-size: 12px; font-weight: 700;
-  background: #0f172a;
-  padding: 2px 7px;
-  border-radius: 20px;
-  color: #94a3b8;
+.bivariate-body { display: flex; flex-direction: column; gap: 4px; }
+.bivariate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  width: 132px;
 }
-
-/* ── Charts ── */
-.chart-section { }
-.chart-title {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #475569;
-  margin-bottom: 8px;
+.bivariate-cell {
+  aspect-ratio: 1;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.bivariate-count {
+  font-size: 10px;
+  font-weight: 700;
+  color: #0f172a;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+}
+.bivariate-axis-x { font-size: 10px; color: #64748b; text-align: center; }
 
 /* ── Summary grid ── */
 .summary-grid {
@@ -158,8 +149,6 @@ body {
 .layer-dot {
   width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
 }
-.insp-dot  { background: #60a5fa; }
-.social-dot { background: #f59e0b; transform: rotate(45deg); border-radius: 2px; }
 
 .layer-badge {
   font-size: 11px; font-weight: 700;
@@ -180,8 +169,8 @@ body {
   border: none; border-top: 1px solid #1e293b; margin: 4px 0;
 }
 
-/* ── Map ── */
-.map-container { width: 100%; height: 100%; }
+/* ── Map wrapper ── */
+.map-wrapper { flex: 1; min-height: 0; min-width: 0; position: relative; display: flex; }
 
 /* ── Basemap switcher ── */
 .basemap-switcher {
@@ -262,23 +251,6 @@ body {
   .stats-panel.closed {
     transform: translateY(calc(100% - 44px));
   }
-
-  .category-filters {
-    flex-direction: row;
-    overflow-x: auto;
-    gap: 8px;
-    padding-bottom: 4px;
-  }
-  .cat-btn {
-    flex-shrink: 0;
-    width: auto;
-    padding: 7px 10px;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    min-width: 72px;
-  }
-  .cat-label { font-size: 10px; text-align: center; }
 
   .panel-scroll { padding: 12px 12px 20px; gap: 14px; }
   .panel-title { font-size: 13px; }

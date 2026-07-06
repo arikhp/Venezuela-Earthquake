@@ -1,25 +1,11 @@
-import { CATEGORIES, getCategory } from '../utils/classify';
-import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BIVARIATE_CLASSES } from '../utils/classify';
 
 export default function StatsPanel({
-  buildings, activeCategories, onToggle,
-  socialReports, showSocialLayer, onToggleSocialLayer,
+  hexSummary, showHexLayer, onToggleHexLayer,
   isOpen, onTogglePanel,
 }) {
-  const counts = CATEGORIES.map(cat => ({
-    ...cat,
-    count: buildings.filter(b => getCategory(b.floors).id === cat.id).length,
-  }));
-
-  const filteredBuildings = buildings.filter(b =>
-    activeCategories.includes(getCategory(b.floors).id)
-  );
-
-  const socialWithFloors = socialReports.filter(r => r.floors);
-  const socialCounts = CATEGORIES.map(cat => ({
-    ...cat,
-    count: socialWithFloors.filter(r => getCategory(r.floors).id === cat.id).length,
-  }));
+  const rows = ['H', 'M', 'L']; // population, high → low (top → bottom)
+  const cols = ['L', 'M', 'H']; // debris, low → high (left → right)
 
   return (
     <>
@@ -30,138 +16,61 @@ export default function StatsPanel({
       <aside className={`stats-panel ${isOpen ? 'open' : 'closed'}`}>
         <div className="panel-scroll">
 
-          {/* ── Layer 1: Field Inspections ── */}
+          {/* ── Debris & Population Density (Escombros UNDP) ── */}
           <div className="layer-header">
-            <span className="layer-dot insp-dot" />
-            <h2 className="panel-title">Field Inspections</h2>
-            <span className="layer-badge">{buildings.length}</span>
-          </div>
-          <p className="panel-sub">Official building inspections</p>
-
-          <div className="category-filters">
-            {counts.map(cat => (
-              <button
-                key={cat.id}
-                className={`cat-btn ${activeCategories.includes(cat.id) ? 'active' : 'inactive'}`}
-                style={{ '--cat-color': cat.color }}
-                onClick={() => onToggle(cat.id)}
-              >
-                <span className="cat-dot" style={{ background: cat.color }} />
-                <span className="cat-label">{cat.label}</span>
-                <span className="cat-count">{cat.count}</span>
-              </button>
-            ))}
-          </div>
-
-          <div className="chart-section">
-            <h3 className="chart-title">Distribution by Category</h3>
-            <ResponsiveContainer width="100%" height={220}>
-              <PieChart>
-                <Pie data={counts} dataKey="count" nameKey="label"
-                  cx="50%" cy="45%" outerRadius={80} innerRadius={36}>
-                  {counts.map(cat => (
-                    <Cell key={cat.id} fill={cat.color}
-                      opacity={activeCategories.includes(cat.id) ? 1 : 0.25} />
-                  ))}
-                </Pie>
-                <Tooltip
-                  formatter={(v, n) => [v + ' buildings', n]}
-                  contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8, color: '#e2e8f0' }}
-                  itemStyle={{ color: '#e2e8f0' }}
-                />
-                <Legend iconType="circle" iconSize={9} wrapperStyle={{ fontSize: 11, color: '#94a3b8' }} />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-
-          <div className="summary-grid">
-            <div className="summary-card">
-              <span className="summary-num">{filteredBuildings.length}</span>
-              <span className="summary-lbl">Shown on map</span>
-            </div>
-            <div className="summary-card">
-              <span className="summary-num">
-                {filteredBuildings.length
-                  ? Math.round(filteredBuildings.reduce((s, b) => s + b.floors, 0) / filteredBuildings.length)
-                  : 0}
-              </span>
-              <span className="summary-lbl">Avg. floors</span>
-            </div>
-            <div className="summary-card">
-              <span className="summary-num">
-                {filteredBuildings.length ? Math.max(...filteredBuildings.map(b => b.floors)) : 0}
-              </span>
-              <span className="summary-lbl">Max floors</span>
-            </div>
-          </div>
-
-          <div className="layer-divider" />
-
-          {/* ── Layer 2: Social Media Reports ── */}
-          <div className="layer-header">
-            <span className="layer-dot social-dot" />
-            <h2 className="panel-title">Social Media Reports</h2>
-            <span className="layer-badge">{socialReports.length}</span>
+            <span className="layer-dot" style={{ background: '#2a1a8a' }} />
+            <h2 className="panel-title">Debris &amp; Population Density</h2>
+            <span className="layer-badge">{hexSummary.totalHexagons}</span>
             <button
-              className={`layer-toggle ${showSocialLayer ? 'on' : 'off'}`}
-              onClick={onToggleSocialLayer}
+              className={`layer-toggle ${showHexLayer ? 'on' : 'off'}`}
+              onClick={onToggleHexLayer}
             >
-              {showSocialLayer ? 'ON' : 'OFF'}
+              {showHexLayer ? 'ON' : 'OFF'}
             </button>
           </div>
-          <p className="panel-sub">Crowd-sourced via Instagram, X, Facebook</p>
+          <p className="panel-sub">UNDP 1ha hexagon grid — bivariate debris volume × population</p>
 
-          <div className="category-filters">
-            {socialCounts.map(cat => (
-              <div
-                key={cat.id}
-                className="cat-btn active"
-                style={{ '--cat-color': cat.color, opacity: showSocialLayer ? 1 : 0.35 }}
-              >
-                <span className="cat-dot" style={{ background: cat.color }} />
-                <span className="cat-label">{cat.label}</span>
-                <span className="cat-count">{cat.count}</span>
+          <div className="bivariate-legend" style={{ opacity: showHexLayer ? 1 : 0.35 }}>
+            <span className="bivariate-axis-y">Population ↑</span>
+            <div className="bivariate-body">
+              <div className="bivariate-grid">
+                {rows.map(p => (
+                  cols.map(d => {
+                    const cls = BIVARIATE_CLASSES.find(c => c.id === d + p);
+                    const count = hexSummary.classCounts[d + p] || 0;
+                    return (
+                      <div
+                        key={d + p}
+                        className="bivariate-cell"
+                        style={{ background: cls.color }}
+                        title={`${cls.label}: ${count} hexagons`}
+                      >
+                        <span className="bivariate-count">{count}</span>
+                      </div>
+                    );
+                  })
+                ))}
               </div>
-            ))}
-          </div>
-
-          {socialWithFloors.length > 0 && (
-            <div className="chart-section">
-              <h3 className="chart-title">Distribution by Category</h3>
-              <ResponsiveContainer width="100%" height={220}>
-                <PieChart>
-                  <Pie data={socialCounts} dataKey="count" nameKey="label"
-                    cx="50%" cy="45%" outerRadius={80} innerRadius={36}>
-                    {socialCounts.map(cat => (
-                      <Cell key={cat.id} fill={cat.color}
-                        opacity={showSocialLayer ? 1 : 0.25} />
-                    ))}
-                  </Pie>
-                  <Tooltip
-                    formatter={(v, n) => [v + ' reports', n]}
-                    contentStyle={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 8, color: '#e2e8f0' }}
-                    itemStyle={{ color: '#e2e8f0' }}
-                  />
-                  <Legend iconType="circle" iconSize={9} wrapperStyle={{ fontSize: 11, color: '#94a3b8' }} />
-                </PieChart>
-              </ResponsiveContainer>
+              <span className="bivariate-axis-x">Debris volume →</span>
             </div>
-          )}
+          </div>
 
           <div className="summary-grid">
             <div className="summary-card">
-              <span className="summary-num">{socialReports.filter(r => r.lat).length}</span>
-              <span className="summary-lbl">With location</span>
+              <span className="summary-num">{hexSummary.totalBuildings.toLocaleString()}</span>
+              <span className="summary-lbl">Buildings assessed</span>
             </div>
             <div className="summary-card">
-              <span className="summary-num">{socialWithFloors.length}</span>
-              <span className="summary-lbl">With floor data</span>
+              <span className="summary-num">{Math.round(hexSummary.totalDebrisM3).toLocaleString()}</span>
+              <span className="summary-lbl">Debris (m³)</span>
             </div>
             <div className="summary-card">
-              <span className="summary-num">
-                {socialWithFloors.length ? Math.max(...socialWithFloors.map(r => r.floors)) : '—'}
-              </span>
-              <span className="summary-lbl">Max floors</span>
+              <span className="summary-num">{Math.round(hexSummary.totalPopulation).toLocaleString()}</span>
+              <span className="summary-lbl">Population</span>
+            </div>
+            <div className="summary-card">
+              <span className="summary-num">{Math.round(hexSummary.totalPersonalPropertyM3).toLocaleString()}</span>
+              <span className="summary-lbl">Personal property (m³)</span>
             </div>
           </div>
 

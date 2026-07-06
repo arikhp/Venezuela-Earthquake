@@ -11,12 +11,10 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "esri-leaflet": "^3.0.19",
-    "leaflet": "^1.9.4",
+    "@arcgis/core": "^5.1.9",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-leaflet": "^5.0.0",
-    "recharts": "^3.9.1"
+    "shpjs": "^6.2.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",

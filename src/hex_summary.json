@@ -1,0 +1,12 @@
+{
+  "totalHexagons": 4758,
+  "totalBuildings": 72162,
+  "totalDebrisM3": 915438.1,
+  "totalPopulation": 305881.1,
+  "totalPersonalPropertyM3": 332782.3,
+  "classCounts": {
+    "LL": 1364, "LM": 1201, "LH": 898,
+    "ML": 122,  "MM": 201,  "MH": 325,
+    "HL": 100,  "HM": 184,  "HH": 363
+  }
+}

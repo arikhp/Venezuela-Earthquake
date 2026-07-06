@@ -1,152 +1,165 @@
 import { useEffect, useRef, useState } from 'react';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import { getCategory } from '../utils/classify';
+import '@arcgis/core/assets/esri/themes/dark/main.css';
+import esriConfig from '@arcgis/core/config';
+import { getBivariateClass, BIVARIATE_CLASSES } from '../utils/classify';
+
+/* Point ArcGIS assets at the CDN so workers/fonts load correctly */
+esriConfig.assetsPath = 'https://js.arcgis.com/5.1/@arcgis/core/assets';
 
 const BASEMAPS = {
-  esri_imagery: {
-    label: '🛰 Satellite',
-    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    attribution: 'Tiles © Esri — Source: Esri, Maxar, GeoEye, Earthstar Geographics',
-    maxZoom: 19,
-  },
-  esri_streets: {
-    label: '🗺 Streets',
-    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-    attribution: 'Tiles © Esri — Source: Esri, HERE, Garmin, USGS',
-    maxZoom: 19,
-  },
-  osm: {
-    label: '🌍 OpenStreetMap',
-    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 19,
-  },
+  satellite: { id: 'satellite', label: '🛰 Satellite' },
+  streets:   { id: 'streets',   label: '🗺 Streets'   },
+  topo:      { id: 'topo',      label: '⛰ Topo'      },
+  osm:       { id: 'osm',       label: '🌍 OSM'       },
 };
 
-/* ── Marker factories ── */
-function circleIcon(color) {
-  return L.divIcon({
-    className: '',
-    html: `<div style="width:13px;height:13px;background:${color};border:2px solid rgba(255,255,255,0.85);border-radius:50%;box-shadow:0 1px 5px rgba(0,0,0,0.5);"></div>`,
-    iconSize: [13, 13], iconAnchor: [6, 6], popupAnchor: [0, -10],
-  });
+function toRgba(hex, a = 255) {
+  const r = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return r ? [parseInt(r[1],16), parseInt(r[2],16), parseInt(r[3],16), a] : [128,128,128,a];
 }
 
-function diamondIcon(color) {
-  return L.divIcon({
-    className: '',
-    html: `<div style="width:13px;height:13px;background:${color};border:2px solid rgba(255,255,255,0.85);transform:rotate(45deg);box-shadow:0 1px 5px rgba(0,0,0,0.5);"></div>`,
-    iconSize: [13, 13], iconAnchor: [6, 6], popupAnchor: [0, -10],
-  });
-}
+export default function BuildingMap({ showHexLayer }) {
+  const mapDiv         = useRef(null);
+  const viewRef        = useRef(null);
+  const hexLayerRef    = useRef(null);
+  const readyRef       = useRef(null); // resolves when init is done
+  const [activeBasemap, setActiveBasemap] = useState('satellite');
 
-
-const PLATFORM_ICONS = {
-  instagram: '📸', x: '🐦', facebook: '📘', tiktok: '🎵', youtube: '▶️', otro: '🔗',
-};
-
-export default function BuildingMap({ buildings, activeCategories, socialReports, showSocialLayer }) {
-  const mapRef       = useRef(null);
-  const mapInst      = useRef(null);
-  const inspLayer    = useRef(null);
-  const socialLayer  = useRef(null);
-  const baseTileRef  = useRef(null);
-  const [activeBasemap, setActiveBasemap] = useState('esri_imagery');
-
-  /* init map once */
+  /* ── Init map once ── */
   useEffect(() => {
-    if (mapInst.current) return;
-    const map = L.map(mapRef.current, { center: [10.5, -66.9], zoom: 10, zoomControl: true });
-    const bm = BASEMAPS.esri_imagery;
-    baseTileRef.current = L.tileLayer(bm.url, { attribution: bm.attribution, maxZoom: bm.maxZoom }).addTo(map);
-    mapInst.current   = map;
-    inspLayer.current   = L.layerGroup().addTo(map);
-    socialLayer.current = L.layerGroup().addTo(map);
+    let view;
+    let resolveReady;
+    readyRef.current = new Promise(res => { resolveReady = res; });
+
+    async function init() {
+      const [
+        { default: Map },
+        { default: MapView },
+        { default: GraphicsLayer },
+        { default: GeoJSONLayer },
+        { default: Graphic },
+        { default: Polygon },
+        { default: shp },
+      ] = await Promise.all([
+        import('@arcgis/core/Map'),
+        import('@arcgis/core/views/MapView'),
+        import('@arcgis/core/layers/GraphicsLayer'),
+        import('@arcgis/core/layers/GeoJSONLayer'),
+        import('@arcgis/core/Graphic'),
+        import('@arcgis/core/geometry/Polygon'),
+        import('shpjs'),
+      ]);
+
+      /* Escombros_UNDP hexagon grid (1ha cells) — debris & population estimate.
+         escombros_undp.zip (~400KB) bundles the shapefile plus an ArcGIS field-
+         legend json; shpjs returns an array with both, so pick the FeatureCollection. */
+      const parsed = await shp(`${import.meta.env.BASE_URL}data/escombros_undp.zip`);
+      const hexFC = (Array.isArray(parsed) ? parsed : [parsed])
+        .find(item => item && item.type === 'FeatureCollection');
+
+      /* Bivariate class (debris_sum × population) computed client-side, ported
+         from the ArcGIS Pro Arcade expression — see utils/classify.js. */
+      hexFC.features.forEach(f => {
+        f.properties.biv_class = getBivariateClass(f.properties.debris_sum, f.properties.population);
+      });
+
+      const hexBlobUrl = URL.createObjectURL(
+        new Blob([JSON.stringify(hexFC)], { type: 'application/json' })
+      );
+
+      const hexLayer = new GeoJSONLayer({
+        title: 'Debris & Population Density',
+        url: hexBlobUrl,
+        visible: true,
+        opacity: 0.8,
+        outFields: ['*'],
+        renderer: {
+          type: 'unique-value',
+          field: 'biv_class',
+          defaultSymbol: { type: 'simple-fill', color: toRgba('#94a3b8', 60), outline: { color: [110,110,110,150], width: 0.5 } },
+          uniqueValueInfos: BIVARIATE_CLASSES.map(c => ({
+            value: c.id,
+            symbol: { type: 'simple-fill', color: toRgba(c.color, 210), outline: { color: [110,110,110,150], width: 0.5 } },
+          })),
+        },
+        popupTemplate: {
+          title: 'Hexágono {hex_id}',
+          content: `<div style="font-size:13px;line-height:1.7">
+            <b>Buildings:</b> {n_bldg}<br/>
+            <b>Debris volume:</b> {debris_sum} m³<br/>
+            <b>Personal property debris:</b> {pp_sum} m³<br/>
+            <b>Population:</b> {population}<br/>
+          </div>`,
+        },
+      });
+
+      /* Assessment-area boundary — context outline, no fill */
+      const boundaryLayer = new GraphicsLayer({ title: 'Assessment Area' });
+      try {
+        const maskRes = await fetch(`${import.meta.env.BASE_URL}data/valid_area_mask.geojson`);
+        const maskGeoJSON = await maskRes.json();
+        maskGeoJSON.features.forEach(f => {
+          boundaryLayer.add(new Graphic({
+            geometry: new Polygon({
+              rings: f.geometry.coordinates,
+              spatialReference: { wkid: 4326 },
+            }),
+            symbol: {
+              type: 'simple-fill',
+              color: [0, 0, 0, 0],
+              outline: { color: [250, 204, 21, 200], width: 1.5, style: 'dash' },
+            },
+          }));
+        });
+      } catch (err) {
+        console.error('Failed to load assessment area boundary', err);
+      }
+
+      const map = new Map({ basemap: 'satellite', layers: [hexLayer, boundaryLayer] });
+
+      view = new MapView({
+        container: mapDiv.current,
+        map,
+        center: [-66.95, 10.58],
+        zoom: 11,
+        ui: { components: ['zoom', 'compass'] },
+      });
+
+      await view.when();
+      await hexLayer.when();
+      if (hexLayer.fullExtent) {
+        view.goTo(hexLayer.fullExtent.expand(1.1)).catch(() => {});
+      }
+
+      viewRef.current    = view;
+      hexLayerRef.current = hexLayer;
+      resolveReady();
+    }
+
+    init().catch(console.error);
+
+    return () => { if (view) view.destroy(); };
   }, []);
 
-  /* inspection layer */
+  /* ── Basemap swap ── */
   useEffect(() => {
-    if (!mapInst.current) return;
-    inspLayer.current.clearLayers();
-    const visible = buildings.filter(b => activeCategories.includes(getCategory(b.floors).id));
-    visible.forEach(b => {
-      const cat = getCategory(b.floors);
-      const m = L.marker([b.lat, b.lng], { icon: circleIcon(cat.color) });
-      m.bindPopup(`
-        <div style="min-width:190px;font-size:13px">
-          <div style="font-weight:700;font-size:14px;margin-bottom:4px">${b.name}</div>
-          <span style="color:${cat.color};font-weight:600;font-size:12px">${cat.label}</span>
-          <hr style="margin:6px 0;border-color:#334155"/>
-          <b>Floors:</b> ${b.floors}<br/>
-          <b>City:</b> ${b.city || '—'}<br/>
-          <b>State:</b> ${b.state || '—'}<br/>
-          <b>Use:</b> ${b.use || '—'}<br/>
-          <b>Material:</b> ${b.material || '—'}<br/>
-          <b>Year built:</b> ${b.year || '—'}<br/>
-          <b>Residents:</b> ${b.persons || '—'}<br/>
-          ${b.result ? `<b>Status:</b> ${b.result}` : ''}
-        </div>`);
-      inspLayer.current.addLayer(m);
+    if (!readyRef.current) return;
+    readyRef.current.then(() => {
+      viewRef.current.map.basemap = BASEMAPS[activeBasemap].id;
     });
-    if (visible.length) {
-      mapInst.current.fitBounds(
-        L.latLngBounds(visible.map(b => [b.lat, b.lng])),
-        { padding: [40, 40], maxZoom: 13 }
-      );
-    }
-  }, [buildings, activeCategories]);
-
-  /* social layer */
-  useEffect(() => {
-    if (!mapInst.current) return;
-    socialLayer.current.clearLayers();
-    if (!showSocialLayer) return;
-    socialReports
-      .filter(r => r.lat && r.lng)
-      .forEach(r => {
-        const color    = r.floors ? getCategory(r.floors).color : '#94a3b8';
-        const catLabel = r.floors ? getCategory(r.floors).label : 'Unknown floors';
-        const m = L.marker([r.lat, r.lng], { icon: diamondIcon(color) });
-        const sourcesHtml = (r.sources || [])
-          .filter(s => s.url)
-          .map(s => {
-            const icon = PLATFORM_ICONS[s.platform] || '🔗';
-            return `<a href="${s.url}" target="_blank" style="color:#60a5fa;font-size:11px">${icon} ${s.platform}</a>`;
-          }).join(' &nbsp;');
-        m.bindPopup(`
-          <div style="min-width:200px;font-size:13px">
-            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
-              <span style="background:#f59e0b;color:#000;font-size:9px;font-weight:700;padding:2px 5px;border-radius:4px">SOCIAL REPORT</span>
-            </div>
-            <div style="font-weight:700;font-size:14px;margin-bottom:4px">${r.name}</div>
-            <span style="color:${color};font-weight:600;font-size:12px">${catLabel}</span>
-            <hr style="margin:6px 0;border-color:#334155"/>
-            ${r.floors ? `<b>Floors:</b> ${r.floors}<br/>` : ''}
-            <b>State:</b> ${r.state || '—'}<br/>
-            <b>Municipality:</b> ${r.municipality || '—'}<br/>
-            <b>Description:</b><br/>
-            <span style="font-size:11px;color:#94a3b8">${(r.description || '').slice(0, 180)}${r.description?.length > 180 ? '…' : ''}</span>
-            ${sourcesHtml ? `<hr style="margin:6px 0;border-color:#334155"/><b>Sources:</b> ${sourcesHtml}` : ''}
-          </div>`);
-        socialLayer.current.addLayer(m);
-      });
-  }, [socialReports, showSocialLayer]);
-
-  /* swap basemap */
-  useEffect(() => {
-    if (!mapInst.current || !baseTileRef.current) return;
-    const bm = BASEMAPS[activeBasemap];
-    baseTileRef.current.remove();
-    baseTileRef.current = L.tileLayer(bm.url, { attribution: bm.attribution, maxZoom: bm.maxZoom });
-    baseTileRef.current.addTo(mapInst.current);
-    baseTileRef.current.bringToBack();
   }, [activeBasemap]);
 
+  /* ── Hex layer toggle ── */
+  useEffect(() => {
+    if (!readyRef.current) return;
+    readyRef.current.then(() => {
+      hexLayerRef.current.visible = showHexLayer;
+    });
+  }, [showHexLayer]);
+
   return (
-    <div style={{ position: 'relative', flex: 1, minHeight: 0, minWidth: 0 }}>
-      <div ref={mapRef} className="map-container" />
-      {/* Basemap switcher */}
+    <div style={{ position: 'relative', flex: 1, minHeight: 0, minWidth: 0, display: 'flex', flexDirection: 'column' }}>
+      <div ref={mapDiv} style={{ flex: 1, minHeight: 0 }} />
       <div className="basemap-switcher">
         {Object.entries(BASEMAPS).map(([key, bm]) => (
           <button
