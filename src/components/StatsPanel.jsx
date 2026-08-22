@@ -1,81 +1,109 @@
-import { BIVARIATE_CLASSES } from '../utils/classify';
+import { CATEGORIES, getCategory } from '../utils/classify';
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 
-export default function StatsPanel({
-  hexSummary, showHexLayer, onToggleHexLayer,
-  isOpen, onTogglePanel,
-}) {
-  const rows = ['H', 'M', 'L']; // population, high → low (top → bottom)
-  const cols = ['L', 'M', 'H']; // debris, low → high (left → right)
+export default function StatsPanel({ buildings, activeCategories, onToggle }) {
+  const counts = CATEGORIES.map(cat => ({
+    ...cat,
+    count: buildings.filter(b => getCategory(b.floors).id === cat.id).length,
+  }));
+
+  const filteredBuildings = buildings.filter(b =>
+    activeCategories.includes(getCategory(b.floors).id)
+  );
+
+  const useCounts = {};
+  filteredBuildings.forEach(b => {
+    const u = b.use || 'Unknown';
+    useCounts[u] = (useCounts[u] || 0) + 1;
+  });
+  const useData = Object.entries(useCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 6)
+    .map(([name, value]) => ({ name, value }));
 
   return (
-    <>
-      <button className="panel-toggle-btn" onClick={onTogglePanel} aria-label="Toggle panel">
-        {isOpen ? '✕' : '☰'}
-      </button>
+    <aside className="stats-panel">
+      <h2 className="panel-title">Building Floor Classification</h2>
+      <p className="panel-sub">{buildings.length} buildings inspected</p>
 
-      <aside className={`stats-panel ${isOpen ? 'open' : 'closed'}`}>
-        <div className="panel-scroll">
+      <div className="category-filters">
+        {counts.map(cat => (
+          <button
+            key={cat.id}
+            className={`cat-btn ${activeCategories.includes(cat.id) ? 'active' : 'inactive'}`}
+            style={{ '--cat-color': cat.color }}
+            onClick={() => onToggle(cat.id)}
+          >
+            <span className="cat-dot" style={{ background: cat.color }} />
+            <span className="cat-label">{cat.label}</span>
+            <span className="cat-count">{cat.count}</span>
+          </button>
+        ))}
+      </div>
 
-          {/* ── Debris & Population Density (Escombros UNDP) ── */}
-          <div className="layer-header">
-            <span className="layer-dot" style={{ background: '#2a1a8a' }} />
-            <h2 className="panel-title">Debris &amp; Population Density</h2>
-            <span className="layer-badge">{hexSummary.totalHexagons}</span>
-            <button
-              className={`layer-toggle ${showHexLayer ? 'on' : 'off'}`}
-              onClick={onToggleHexLayer}
+      <div className="chart-section">
+        <h3 className="chart-title">Distribution by Category</h3>
+        <ResponsiveContainer width="100%" height={200}>
+          <PieChart>
+            <Pie
+              data={counts}
+              dataKey="count"
+              nameKey="label"
+              cx="50%"
+              cy="50%"
+              outerRadius={75}
+              label={({ label, count }) => `${count}`}
+              labelLine={false}
             >
-              {showHexLayer ? 'ON' : 'OFF'}
-            </button>
-          </div>
-          <p className="panel-sub">UNDP 1ha hexagon grid — bivariate debris volume × population</p>
+              {counts.map(cat => (
+                <Cell
+                  key={cat.id}
+                  fill={cat.color}
+                  opacity={activeCategories.includes(cat.id) ? 1 : 0.25}
+                />
+              ))}
+            </Pie>
+            <Tooltip formatter={(v, n) => [v, n]} />
+            <Legend />
+          </PieChart>
+        </ResponsiveContainer>
+      </div>
 
-          <div className="bivariate-legend" style={{ opacity: showHexLayer ? 1 : 0.35 }}>
-            <span className="bivariate-axis-y">Population ↑</span>
-            <div className="bivariate-body">
-              <div className="bivariate-grid">
-                {rows.map(p => (
-                  cols.map(d => {
-                    const cls = BIVARIATE_CLASSES.find(c => c.id === d + p);
-                    const count = hexSummary.classCounts[d + p] || 0;
-                    return (
-                      <div
-                        key={d + p}
-                        className="bivariate-cell"
-                        style={{ background: cls.color }}
-                        title={`${cls.label}: ${count} hexagons`}
-                      >
-                        <span className="bivariate-count">{count}</span>
-                      </div>
-                    );
-                  })
-                ))}
-              </div>
-              <span className="bivariate-axis-x">Debris volume →</span>
-            </div>
-          </div>
-
-          <div className="summary-grid">
-            <div className="summary-card">
-              <span className="summary-num">{hexSummary.totalBuildings.toLocaleString()}</span>
-              <span className="summary-lbl">Buildings assessed</span>
-            </div>
-            <div className="summary-card">
-              <span className="summary-num">{Math.round(hexSummary.totalDebrisM3).toLocaleString()}</span>
-              <span className="summary-lbl">Debris (m³)</span>
-            </div>
-            <div className="summary-card">
-              <span className="summary-num">{Math.round(hexSummary.totalPopulation).toLocaleString()}</span>
-              <span className="summary-lbl">Population</span>
-            </div>
-            <div className="summary-card">
-              <span className="summary-num">{Math.round(hexSummary.totalPersonalPropertyM3).toLocaleString()}</span>
-              <span className="summary-lbl">Personal property (m³)</span>
-            </div>
-          </div>
-
+      {useData.length > 0 && (
+        <div className="chart-section">
+          <h3 className="chart-title">Building Use (visible)</h3>
+          <ResponsiveContainer width="100%" height={180}>
+            <BarChart data={useData} layout="vertical" margin={{ left: 10, right: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+              <XAxis type="number" tick={{ fontSize: 11 }} />
+              <YAxis type="category" dataKey="name" width={90} tick={{ fontSize: 10 }} />
+              <Tooltip />
+              <Bar dataKey="value" fill="#6366f1" radius={[0, 4, 4, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
         </div>
-      </aside>
-    </>
+      )}
+
+      <div className="summary-grid">
+        <div className="summary-card">
+          <span className="summary-num">{filteredBuildings.length}</span>
+          <span className="summary-lbl">Shown on map</span>
+        </div>
+        <div className="summary-card">
+          <span className="summary-num">
+            {filteredBuildings.length
+              ? Math.round(filteredBuildings.reduce((s, b) => s + b.floors, 0) / filteredBuildings.length)
+              : 0}
+          </span>
+          <span className="summary-lbl">Avg. floors</span>
+        </div>
+        <div className="summary-card">
+          <span className="summary-num">
+            {filteredBuildings.length ? Math.max(...filteredBuildings.map(b => b.floors)) : 0}
+          </span>
+          <span className="summary-lbl">Max floors</span>
+        </div>
+      </div>
+    </aside>
   );
 }
